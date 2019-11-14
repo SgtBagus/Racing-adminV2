@@ -1,323 +1,242 @@
-
-
-  <!-- Content Wrapper. Contains page content -->
-
-  <div class="content-wrapper">
-
-    <!-- Content Header (Page header) -->
-
-    <section class="content-header">
-
-      <h1>
-
-        Tbl Event
-
-        <small>Edit</small>
-
-      </h1>
-
-      <ol class="breadcrumb">
-
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-
-      <li><a href="#">Master</a></li>
-
-      <li class="#">Tbl Event</li>
-
-      <li class="active">Edit</li>
-
-      </ol>
-
-    </section>
-
-    <!-- Main content -->
-
-    <section class="content">
-
-    <form method="POST" action="<?= base_url('master/Tbl_event/update') ?>" id="upload-create" enctype="multipart/form-data">
-
-    <input type="hidden" name="id" value="<?= $tbl_event['id'] ?>">
-
-
-
-
-
-      <div class="row">
-
-        <div class="col-xs-12">
-
-          <div class="box">
-
-            <!-- /.box-header -->
-
-            <div class="box-header">
-
-              <h5 class="box-title">
-
-                  Edit Tbl Event
-
-              </h5>
-
-            </div>
-
-            <div class="box-body">
-
-                <div class="show_error"></div><div class="form-group">
-
-                      <label for="form-title">Title</label>
-
-                      <input type="text" class="form-control" id="form-title" placeholder="Masukan Title" name="dt[title]" value="<?= $tbl_event['title'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-tgleventStart">TgleventStart</label>
-
-                      <input type="text" class="form-control" id="form-tgleventStart" placeholder="Masukan TgleventStart" name="dt[tgleventStart]" value="<?= $tbl_event['tgleventStart'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-tgleventEnd">TgleventEnd</label>
-
-                      <input type="text" class="form-control" id="form-tgleventEnd" placeholder="Masukan TgleventEnd" name="dt[tgleventEnd]" value="<?= $tbl_event['tgleventEnd'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-harga">Harga</label>
-
-                      <input type="text" class="form-control" id="form-harga" placeholder="Masukan Harga" name="dt[harga]" value="<?= $tbl_event['harga'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-deskripsi">Deskripsi</label>
-
-                      <input type="text" class="form-control" id="form-deskripsi" placeholder="Masukan Deskripsi" name="dt[deskripsi]" value="<?= $tbl_event['deskripsi'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-kota">Kota</label>
-
-                      <input type="text" class="form-control" id="form-kota" placeholder="Masukan Kota" name="dt[kota]" value="<?= $tbl_event['kota'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-tipe_pendaftaran">Tipe Pendaftaran</label>
-
-                      <input type="text" class="form-control" id="form-tipe_pendaftaran" placeholder="Masukan Tipe Pendaftaran" name="dt[tipe_pendaftaran]" value="<?= $tbl_event['tipe_pendaftaran'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-minraider">Minraider</label>
-
-                      <input type="text" class="form-control" id="form-minraider" placeholder="Masukan Minraider" name="dt[minraider]" value="<?= $tbl_event['minraider'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-maxraider">Maxraider</label>
-
-                      <input type="text" class="form-control" id="form-maxraider" placeholder="Masukan Maxraider" name="dt[maxraider]" value="<?= $tbl_event['maxraider'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-TglCloseDaftar">TglCloseDaftar</label>
-
-                      <input type="text" class="form-control" id="form-TglCloseDaftar" placeholder="Masukan TglCloseDaftar" name="dt[TglCloseDaftar]" value="<?= $tbl_event['TglCloseDaftar'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-live_url">Live Url</label>
-
-                      <input type="text" class="form-control" id="form-live_url" placeholder="Masukan Live Url" name="dt[live_url]" value="<?= $tbl_event['live_url'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-latitude">Latitude</label>
-
-                      <input type="text" class="form-control" id="form-latitude" placeholder="Masukan Latitude" name="dt[latitude]" value="<?= $tbl_event['latitude'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-longitude">Longitude</label>
-
-                      <input type="text" class="form-control" id="form-longitude" placeholder="Masukan Longitude" name="dt[longitude]" value="<?= $tbl_event['longitude'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-statusEvent">StatusEvent</label>
-
-                      <input type="text" class="form-control" id="form-statusEvent" placeholder="Masukan StatusEvent" name="dt[statusEvent]" value="<?= $tbl_event['statusEvent'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-tipeEvent">TipeEvent</label>
-
-                      <input type="text" class="form-control" id="form-tipeEvent" placeholder="Masukan TipeEvent" name="dt[tipeEvent]" value="<?= $tbl_event['tipeEvent'] ?>">
-
-                  </div><div class="form-group">
-
-                      <label for="form-public">Public</label>
-
-                      <input type="text" class="form-control" id="form-public" placeholder="Masukan Public" name="dt[public]" value="<?= $tbl_event['public'] ?>">
-
-                  </div><?php
-
-                  if($file['dir']!=""){
-
-                  $types = explode("/", $file['mime']);
-
-                  if($types[0]=="image"){
-
-                  ?>
-
-                    <img src="<?= base_url($file['dir']) ?>" style="width: 200px" class="img img-thumbnail">
-
-                    <br>
-
-                  <?php }else{ ?>
-
-                    
-
-                    <i class="fa fa-file fa-5x text-danger"></i>
-
-                    <br>
-
-                    <a href="<?= base_url($file['dir']) ?>" target="_blank"><i class="fa fa-download"></i> <?= $file['name'] ?></a>
-
-                    <br>
-
-                  <br>
-
-                <?php } ?>
-
-                <?php } ?><div class="form-group">
-
-                      <label for="form-file">File</label>
-
-                      <input type="file" class="form-control" id="form-file" placeholder="Masukan File" name="file">
-
-                  </div></div>
-
-            <div class="box-footer">
-
-                <button type="submit" class="btn btn-primary btn-send" ><i class="fa fa-save"></i> Save</button>
-
-                <button type="reset" class="btn btn-danger"><i class="fa fa-refresh"></i> Reset</button>
-
-             
-
-            </div>
-
-            <!-- /.box-body -->
-
+<div class="content-wrapper">
+  <section class="content-header">
+    <h1>Event</h1>
+    <ol class="breadcrumb">
+      <li><a href="<?= base_url() ?>"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li class="active">Event</li>
+    </ol>
+  </section>
+  <section class="content">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">
+          <div class="box-header">
+            <h5 class="box-title">
+              Edit Event
+            </h5>
           </div>
-
-          <!-- /.box -->
-
-
-
-          <!-- /.box -->
-
-        </div>
-
-        <!-- /.col -->
-
-      </div>
-
-      <!-- /.row -->
-
-      </form>
-
-
-
-    </section>
-
-    <!-- /.content -->
-
-  </div>
-
-  <!-- /.content-wrapper -->
-
-  <script type="text/javascript">
-
-      $("#upload-create").submit(function(){
-
-            var form = $(this);
-
-            var mydata = new FormData(this);
-
-            $.ajax({
-
-                type: "POST",
-
-                url: form.attr("action"),
-
-                data: mydata,
-
-                cache: false,
-
-                contentType: false,
-
-                processData: false,
-
-                beforeSend : function(){
-
-                    $(".btn-send").addClass("disabled").html("<i class='la la-spinner la-spin'></i>  Processing...").attr('disabled',true);
-
-                    form.find(".show_error").slideUp().html("");
-
-                },
-
-                success: function(response, textStatus, xhr) {
-
-                    // alert(mydata);
-
-                   var str = response;
-
-                    if (str.indexOf("success") != -1){
-
-                        form.find(".show_error").hide().html(response).slideDown("fast");
-
-                        setTimeout(function(){ 
-
-                           window.location.href = "<?= base_url('master/Tbl_event') ?>";
-
-                        }, 1000);
-
-                        $(".btn-send").removeClass("disabled").html('<i class="fa fa-save"></i> Save').attr('disabled',false);
-
-
-
-
-
-                    }else{
-
-                        form.find(".show_error").hide().html(response).slideDown("fast");
-
-                        $(".btn-send").removeClass("disabled").html('<i class="fa fa-save"></i> Save').attr('disabled',false);
-
-                        
-
-                    }
-
-                },
-
-                error: function(xhr, textStatus, errorThrown) {
-
-                  console.log(xhr);
-
-                    $(".btn-send").removeClass("disabled").html('<i class="fa fa-save"></i> Save').attr('disabled',false);
-
-                    form.find(".show_error").hide().html(xhr).slideDown("fast");
-
-
-
+          <form method="POST" action="<?= base_url('master/Tbl_event/update') ?>" id="upload-create" enctype="multipart/form-data" class="form-horizontal">
+            <div class="box-body">
+              <div class="show_error"></div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Judul Event*</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="Masukan Judul Event ..." name="dt[title]" value="<?= $tbl_event['title'] ?>">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Gambar Event</label>
+                <div class="col-sm-9">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-12">
+            <?php
+            if ($img) {
+              if ($img['dir'] != "") {
+                ?>
+                <img src="<?= base_url() . $img['dir'] ?>" alt="User Image" width="100%" height="250px" id="preview_image">
+              <?php
                 }
+              } else {
+                ?>
+              <img src="<?= base_url('webfiles/event/event_default.jpg') ?>" alt="User Image" width="100%" height="250px" id="preview_image">
+            <?php
+            } ?>
+                    </div>
+                    <div class="col-md-7 col-xs-12">
+                      <button type="button" class="btn btn-sm btn-primary" id="btnFile"><i class="fa fa-file"></i> Browser File</button>
+                      <input type="file" class="file" id="imageFile" style="display: none;" name="file" accept="image/x-png,image/jpeg,image/jpg" />
+                      <p class="help-block">Gambar yang diupload disarankan memiliki format PNG, JPG, atau JPEG</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Tanggal Event*</label>
+                <div class="col-sm-4">
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      Dimulai
+                    </div>
+                    <input type="text" name="dt[tgleventStart]" class="form-control tgl" placeholder="Masukan Tanggal Event" value="<?= date("d M Y", strtotime($tbl_event['tgleventStart'])); ?>">
+                  </div>
+                </div>
+                <div class="col-sm-5">
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      Berakhir
+                    </div>
+                    <input type="text" name="dt[tgleventEnd]" class="form-control tgl" placeholder="Masukan Tanggal Event" value="<?= date("d M Y", strtotime($tbl_event['tgleventEnd'])); ?>">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Harga Pendaftaran</label>
+                <div class="col-sm-9">
+                  <input type="number" name="dt[harga]" class="form-control" value="<?= $tbl_event['harga'] ?>">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">File Peraturan Event</label>
+                <div class="col-sm-9">
+                    
+        <?php
+        if ($rule) {
+          $types = explode("/", $rule['mime']);
+          ?>
+          <i class="fa fa-file fa-5x text-danger"></i> <?= $rule['name'] ?>
+          <br>
+          <div class="col-md-12">
+            <a href="<?= base_url($rule['dir']) ?>" target="_blank">
+              <button type="button" class="btn btn-send btn-info btn-sm btn-sm btn-primary"><i class="fa fa-eye"></i></button>
+            </a>
+            <a href="<?= base_url('download/downloadPDFEvent/'.$rule['id']) ?>">
+              <button type="button" class="btn btn-send btn-warning btn-sm btn-sm btn-danger"><i class="fa fa-download"></i></button>
+            </a>
+          </div>
+          <br>
+          <br>
+        <?php
+        } ?>
+                  <input type="file" class="form-control" name="rule">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Deskripsi </label>
+                <div class="col-sm-9">
+                  <textarea class="textarea form-control" name="dt[deskripsi]"><?= $tbl_event['deskripsi'] ?></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Kota Event*</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="Masukan Kota Event ..." name="dt[kota]" value="<?= $tbl_event['kota'] ?>">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Pendaftaran Event</label>
+                <div class="col-sm-9">
+                  <select class="form-control select2" name="dt[tipe_pendaftaran]" id="pendaftaranEvent">
+                    <option value="Individu">Individu</option>
+                    <option value="Team">Team</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group" id="RaiderMax">
+                <label for="inputEmail3" class="col-sm-3 control-label">Dalam Satu Team</label>
+                <div class="col-sm-4">
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      Minim Raider
+                    </div>
+                    <input type="number" name="dt[minraider]" class="form-control" placeholder="Masukan Minim Raider" value="<?= $tbl_event['minraider'] ?>">
+                  </div>
+                </div>
+                <div class="col-sm-5">
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      Maximal Raider
+                    </div>
+                    <input type="number" name="dt[maxraider]" class="form-control" placeholder="Masukan Minim Raider" value="<?= $tbl_event['maxraider'] ?>">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Link Event</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="Masukan Url Link Event ..." name="dt[live_url]" value="<?= $tbl_event['live_url'] ?>">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Status Event</label>
+                <div class="col-sm-9">
+                  <select class="form-control select2" name="dt[statusEvent]" style="width: 100%">
+                    <option value="DIBUKA">DIBUKA</option>
+                    <option value="DITUTUP">DITUTUP</option>
+                    <option value="BERJALAN">BERJALAN</option>
+                    <option value="COMMINGSOON">COMMING SOON</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Tanggal Penutupan Pendaftaran</label>
+                <div class="col-sm-9">
+                  <input type="text" name="dt[TglCloseDaftar]" class="form-control tgl" placeholder="Masukan Tanggal Penutupan Pendaftaran" value="<?= date("d M Y", strtotime($tbl_event['TglCloseDaftar'])); ?>">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Tipe Event</label>
+                <div class="col-sm-9">
+                  <select class="form-control select2" name="dt[tipeEvent]" style="width: 100%">
+                    <option value="UTAMA">UTAMA</option>
+                    <option value="TIDAKUTAMA">TIDAK UTAMA</option>
+                  </select>
+                </div>
+              </div>
+              <div class="show_error"></div>
+            </div>
+            <div class="box-footer" align="right">
+              <a href="<?= base_url('event') ?> ">
+                <button type="button" class="btn btn-info"><i class="fa fa-stars"></i> Data Event</button>
+              </a>
+              <button type="submit" class="btn btn-primary btn-send"><i class="fa fa-save"></i> Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<script type="text/javascript">
+  $('#RaiderMax').hide();
+  $('#pendaftaranEvent').change(function() {
 
-            });
+    if ($('#pendaftaranEvent').val() == "Individu") {
+      $('#RaiderMax').hide();
+    } else {
+      $('#RaiderMax').show();
+    }
+  })
 
-            return false;
+  $(function() {
 
-    
+    $("#upload-create").submit(function() {
+      var form = $(this);
+      var mydata = new FormData(this);
+      $.ajax({
+        type: "POST",
+        url: form.attr("action"),
+        data: mydata,
+        cache: false,
+        contentType: false,
+        processData: false,
+        beforeSend: function() {
+          $(".btn-send").addClass("disabled").html("<i class='la la-spinner la-spin'></i>  Processing...").attr('disabled', true);
+          form.find(".show_error").slideUp().html("");
+        },
 
-        });
+        success: function(response, textStatus, xhr) {
+          var str = response;
+          if (str.indexOf("success") != -1) {
+            form.find(".show_error").hide().html(response).slideDown("fast");
+            setTimeout(function() {
+              window.location.href = "<?= base_url('master/Tbl_event') ?>";
+            }, 1000);
 
-  </script>
+            $(".btn-send").removeClass("disabled").html('<i class="fa fa-save"></i> Save').attr('disabled', false);
+          } else {
+            form.find(".show_error").hide().html(response).slideDown("fast");
+            $(".btn-send").removeClass("disabled").html('<i class="fa fa-save"></i> Save').attr('disabled', false);
+          }
+        },
+        error: function(xhr, textStatus, errorThrown) {
+          console.log(xhr);
+          $(".btn-send").removeClass("disabled").html('<i class="fa fa-save"></i> Save').attr('disabled', false);
+          form.find(".show_error").hide().html(xhr).slideDown("fast");
+        }
+      });
+      return false;
+    });
+  });
+
+  $('.textarea').wysihtml5();
+</script>

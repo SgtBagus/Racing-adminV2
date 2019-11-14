@@ -168,7 +168,9 @@
                 <tbody>
                   <?php
                   $i = 1;
-                  foreach ($tbl_wisata as $row) { ?>
+                  foreach ($tbl_wisata as $row) {
+                    $file =  $this->mymodel->selectDataOne('file', array('table_id' => $row['id'], 'table' => 'tbl_wisata'));
+                    ?>
                     <tr>
                       <td><?= $i ?></td>
                       <td><img src="<?= $file['url'] ?>" width="50px" height="50px"></td>

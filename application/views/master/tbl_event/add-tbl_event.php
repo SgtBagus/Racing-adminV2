@@ -40,15 +40,6 @@
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputEmail3" class="col-sm-3 control-label">Pendaftaran Event</label>
-                <div class="col-sm-9">
-                  <select class="form-control select2" name="dt[tipe_pendaftaran]">
-                    <option value="Individu">Individu</option>
-                    <option value="Team">Team</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-group">
                 <label for="inputEmail3" class="col-sm-3 control-label">Tanggal Event*</label>
                 <div class="col-sm-4">
                   <div class="input-group">
@@ -92,6 +83,15 @@
                 </div>
               </div>
               <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Pendaftaran Event</label>
+                <div class="col-sm-9">
+                  <select class="form-control select2" name="dt[tipe_pendaftaran]" id="pendaftaranEvent">
+                    <option value="Individu">Individu</option>
+                    <option value="Team">Team</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group" id="RaiderMax">
                 <label for="inputEmail3" class="col-sm-3 control-label">Dalam Satu Team</label>
                 <div class="col-sm-4">
                   <div class="input-group">
@@ -130,7 +130,7 @@
               <div class="form-group">
                 <label for="inputEmail3" class="col-sm-3 control-label">Tanggal Penutupan Pendaftaran</label>
                 <div class="col-sm-9">
-                  <input type="text" name="dt[TglCloseDaftar  ]" class="form-control tgl" placeholder="Masukan Tanggal Penutupan Pendaftaran">
+                  <input type="text" name="dt[TglCloseDaftar]" class="form-control tgl" placeholder="Masukan Tanggal Penutupan Pendaftaran">
                 </div>
               </div>
               <div class="form-group">
@@ -155,8 +155,18 @@
       </div>
     </div>
   </section>
-</div> 
+</div>
 <script type="text/javascript">
+  $('#RaiderMax').hide();
+  $('#pendaftaranEvent').change(function() {
+
+    if ($('#pendaftaranEvent').val() == "Individu") {
+      $('#RaiderMax').hide();
+    } else {
+      $('#RaiderMax').show();
+    }
+  })
+
   $(function() {
 
     $("#upload-create").submit(function() {
@@ -179,7 +189,7 @@
           if (str.indexOf("success") != -1) {
             form.find(".show_error").hide().html(response).slideDown("fast");
             setTimeout(function() {
-              window.location.href = "<?= base_url('event') ?>";
+              window.location.href = "<?= base_url('master/Tbl_event') ?>";
             }, 1000);
 
             $(".btn-send").removeClass("disabled").html('<i class="fa fa-save"></i> Save').attr('disabled', false);
