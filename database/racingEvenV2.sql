@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Waktu pembuatan: 14 Nov 2019 pada 05.33
+-- Waktu pembuatan: 14 Nov 2019 pada 07.59
 -- Versi server: 10.4.8-MariaDB
 -- Versi PHP: 7.3.10
 
@@ -681,7 +681,6 @@ INSERT INTO `file` (`id`, `name`, `mime`, `dir`, `table`, `table_id`, `status`, 
 (350, 'team_default.png', 'image/png', 'webfiles/team/team_default.png', 'tbl_team', 16, 'ENABLE', 'http://localhost:8000/webfiles/team/team_default.png', '2019-10-24 18:16:16', NULL),
 (352, '6950c16c9bcc6995f376b297f163175983149.png', 'image/png', 'webfiles/blogs/6950c16c9bcc6995f376b297f163175983149.png', 'tbl_blog', 2, 'ENABLE', 'http://localhost:8080/webfiles/blogs/6950c16c9bcc6995f376b297f163175983149.png', '2019-10-24 18:46:49', NULL),
 (353, '6950c16c9bcc6995f376b297f163175938981.jpeg', 'image/jpeg', 'webfiles/merchandise/6950c16c9bcc6995f376b297f163175938981.jpeg', 'tbl_merchandise', 2, 'ENABLE', 'http://localhost:8080/webfiles/merchandise/6950c16c9bcc6995f376b297f163175938981.jpeg', '2019-10-24 18:53:14', NULL),
-(354, '6950c16c9bcc6995f376b297f163175922691.png', 'image/png', 'webfiles/event/6950c16c9bcc6995f376b297f163175922691.png', 'tbl_event', 4, 'ENABLE', 'http://localhost:8080/webfiles/event/6950c16c9bcc6995f376b297f163175922691.png', '2019-10-24 19:03:45', NULL),
 (355, '6950c16c9bcc6995f376b297f163175990681.jpeg', 'image/jpeg', 'webfiles/wisata/6950c16c9bcc6995f376b297f163175990681.jpeg', 'tbl_wisata', 3, 'ENABLE', 'http://localhost:8080/webfiles/wisata/6950c16c9bcc6995f376b297f163175990681.jpeg', '2019-10-25 02:23:59', NULL),
 (356, '6950c16c9bcc6995f376b297f163175962793.jpeg', 'image/jpeg', 'webfiles/covergallery/6950c16c9bcc6995f376b297f163175962793.jpeg', 'master_gallery', 5, 'ENABLE', 'http://localhost:8080/webfiles/covergallery/6950c16c9bcc6995f376b297f163175962793.jpeg', '2019-10-25 02:30:38', NULL),
 (357, '6950c16c9bcc6995f376b297f163175939436.png', 'image/png', 'webfiles/wisata/6950c16c9bcc6995f376b297f163175939436.png', 'tbl_wisata', 4, 'ENABLE', 'http://localhost:8080/webfiles/wisata/6950c16c9bcc6995f376b297f163175939436.png', '2019-10-25 02:52:12', NULL),
@@ -729,8 +728,6 @@ INSERT INTO `file` (`id`, `name`, `mime`, `dir`, `table`, `table_id`, `status`, 
 (412, '6950c16c9bcc6995f376b297f16317592991718.jpg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f16317592991718.jpg', 'tbl_gallery', 61, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f16317592991718.jpg', '2019-10-28 19:54:13', NULL),
 (413, '6950c16c9bcc6995f376b297f16317592991719.jpg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f16317592991719.jpg', 'tbl_gallery', 62, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f16317592991719.jpg', '2019-10-28 19:54:13', NULL),
 (415, 'raider_default.png', 'image/png', 'webfiles/raider/raider_default.png', 'tbl_raider', 339, 'ENABLE', 'http://localhost:8000/webfiles/raider/raider_default.png', '2019-10-29 20:49:56', NULL),
-(416, '6950c16c9bcc6995f376b297f163175918662.jpg', 'image/jpeg', 'webfiles/event/6950c16c9bcc6995f376b297f163175918662.jpg', 'tbl_event', 7, 'ENABLE', 'http://localhost:8080/webfiles/event/6950c16c9bcc6995f376b297f163175918662.jpg', '2019-10-30 13:50:31', NULL),
-(417, '6950c16c9bcc6995f376b297f163175957636.jpg', 'image/jpeg', 'webfiles/event/6950c16c9bcc6995f376b297f163175957636.jpg', 'tbl_event', 8, 'ENABLE', 'http://localhost:8080/webfiles/event/6950c16c9bcc6995f376b297f163175957636.jpg', '2019-10-30 18:38:20', NULL),
 (418, '6950c16c9bcc6995f376b297f163175992326.jpeg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f163175992326.jpeg', 'tbl_gallery', 63, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f163175992326.jpeg', '2019-10-30 18:41:33', NULL),
 (419, 'raider_default.png', 'image/png', 'webfiles/raider/raider_default.png', 'tbl_raider', 340, 'ENABLE', 'http://localhost:8000/webfiles/raider/raider_default.png', '2019-10-31 11:03:16', NULL),
 (420, '6950c16c9bcc6995f376b297f163175974708.jpeg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f163175974708.jpeg', 'tbl_gallery', 64, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f163175974708.jpeg', '2019-10-31 12:03:58', NULL),
@@ -826,11 +823,11 @@ INSERT INTO `file` (`id`, `name`, `mime`, `dir`, `table`, `table_id`, `status`, 
 (519, '6950c16c9bcc6995f376b297f1631759932179.jpeg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f1631759932179.jpeg', 'tbl_gallery', 141, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f1631759932179.jpeg', '2019-11-02 18:34:20', NULL),
 (520, '6950c16c9bcc6995f376b297f16317599321710.jpeg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f16317599321710.jpeg', 'tbl_gallery', 142, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f16317599321710.jpeg', '2019-11-02 18:34:20', NULL),
 (521, '6950c16c9bcc6995f376b297f16317599321711.jpeg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f16317599321711.jpeg', 'tbl_gallery', 143, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f16317599321711.jpeg', '2019-11-02 18:34:20', NULL),
-(522, '6950c16c9bcc6995f376b297f16317599321712.jpeg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f16317599321712.jpeg', 'tbl_gallery', 144, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f16317599321712.jpeg', '2019-11-02 18:34:20', NULL);
-INSERT INTO `file` (`id`, `name`, `mime`, `dir`, `table`, `table_id`, `status`, `url`, `created_at`, `updated_at`) VALUES
+(522, '6950c16c9bcc6995f376b297f16317599321712.jpeg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f16317599321712.jpeg', 'tbl_gallery', 144, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f16317599321712.jpeg', '2019-11-02 18:34:20', NULL),
 (523, '6950c16c9bcc6995f376b297f16317599321713.jpeg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f16317599321713.jpeg', 'tbl_gallery', 145, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f16317599321713.jpeg', '2019-11-02 18:34:20', NULL),
 (524, '6950c16c9bcc6995f376b297f16317599321714.jpeg', 'image/jpeg', 'webfiles/gallery/6950c16c9bcc6995f376b297f16317599321714.jpeg', 'tbl_gallery', 146, 'ENABLE', 'http://localhost:8080/webfiles/gallery/6950c16c9bcc6995f376b297f16317599321714.jpeg', '2019-11-02 18:34:20', NULL),
-(525, '6950c16c9bcc6995f376b297f163175976054.pdf', 'application/pdf', 'webfiles/juara/6950c16c9bcc6995f376b297f163175976054.pdf', 'paket_file', 17, 'ENABLE', 'http://localhost:8080/webfiles/juara/6950c16c9bcc6995f376b297f163175976054.pdf', '2019-11-03 00:25:06', NULL),
+(525, '6950c16c9bcc6995f376b297f163175976054.pdf', 'application/pdf', 'webfiles/juara/6950c16c9bcc6995f376b297f163175976054.pdf', 'paket_file', 17, 'ENABLE', 'http://localhost:8080/webfiles/juara/6950c16c9bcc6995f376b297f163175976054.pdf', '2019-11-03 00:25:06', NULL);
+INSERT INTO `file` (`id`, `name`, `mime`, `dir`, `table`, `table_id`, `status`, `url`, `created_at`, `updated_at`) VALUES
 (526, 'raider_default.png', 'image/png', 'webfiles/raider/raider_default.png', 'tbl_raider', 352, 'ENABLE', 'http://localhost:8000/webfiles/raider/raider_default.png', '2019-11-02 21:06:35', NULL),
 (527, 'team_default.png', 'image/png', 'webfiles/team/team_default.png', 'tbl_team', 113, 'ENABLE', 'http://localhost:8000/webfiles/team/team_default.png', '2019-11-03 00:27:03', NULL),
 (529, '6950c16c9bcc6995f376b297f163175964947.pdf', 'application/pdf', 'webfiles/juara/6950c16c9bcc6995f376b297f163175964947.pdf', 'paket_file', 19, 'ENABLE', 'http://localhost:8080/webfiles/juara/6950c16c9bcc6995f376b297f163175964947.pdf', '2019-11-03 21:14:51', NULL),
@@ -1133,7 +1130,101 @@ INSERT INTO `log_aktivitas` (`log_id`, `log_created_at`, `log_created_by`, `log_
 (108, '2019-11-14 11:14:45', 14, 'updateData', 'menu_master', '{\"id\":\"60\",\"name\":\"Wisata\",\"icon\":\"fa fa-star\",\"link\":\"wisata\",\"urutan\":\"0\",\"parent\":\"55\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-23 09:45:58\",\"updated_at\":null}'),
 (109, '2019-11-14 11:20:00', 14, 'updateData', 'menu_master', '{\"id\":\"43\",\"name\":\"Blog \\/ Informasi\",\"icon\":\"fa fa-newspaper-o\",\"link\":\"blogs\",\"urutan\":\"4\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:25:20\",\"updated_at\":\"2019-10-23 09:36:36\"}'),
 (110, '2019-11-14 11:22:27', 14, 'updateData', 'menu_master', '{\"id\":\"54\",\"name\":\"Gallery Group\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/imagegroup\",\"urutan\":\"2\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-06 00:00:00\",\"updated_at\":\"2019-10-31 22:26:10\"}'),
-(111, '2019-11-14 11:25:13', 14, 'updateData', 'menu_master', '{\"id\":\"64\",\"name\":\"Gallery Items\",\"icon\":\"fa fa-picture-o\",\"link\":\"gallery\",\"urutan\":\"1\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-31 22:23:23\",\"updated_at\":\"2019-10-31 22:27:17\"}');
+(111, '2019-11-14 11:25:13', 14, 'updateData', 'menu_master', '{\"id\":\"64\",\"name\":\"Gallery Items\",\"icon\":\"fa fa-picture-o\",\"link\":\"gallery\",\"urutan\":\"1\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-31 22:23:23\",\"updated_at\":\"2019-10-31 22:27:17\"}'),
+(112, '2019-11-14 13:10:21', 14, 'updateData', 'menu_master', '{\"id\":\"48\",\"name\":\"Admin Users\",\"icon\":\"fa fa-user\",\"link\":\"users\",\"urutan\":\"7\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:33:44\",\"updated_at\":\"2019-10-23 09:37:08\"}'),
+(113, '2019-11-14 13:10:25', 14, 'updateData', 'menu_master', '{\"id\":\"43\",\"name\":\"Blog \\/ Informasi\",\"icon\":\"fa fa-newspaper-o\",\"link\":\"master\\/Tbl_blog\",\"urutan\":\"4\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:25:20\",\"updated_at\":\"2019-11-14 11:20:00\"}'),
+(114, '2019-11-14 13:10:27', 14, 'updateData', 'menu_master', '{\"id\":\"63\",\"name\":\"Config\",\"icon\":\"fa fa-link\",\"link\":\"config\",\"urutan\":\"0\",\"parent\":\"62\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-25 19:25:14\",\"updated_at\":\"2019-10-25 19:26:05\"}'),
+(115, '2019-11-14 13:10:27', 14, 'updateData', 'menu_master', '{\"id\":\"63\",\"name\":\"Config\",\"icon\":\"fa fa-link\",\"link\":\"config\",\"urutan\":\"0\",\"parent\":\"62\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-25 19:25:14\",\"updated_at\":\"2019-10-25 19:26:05\"}'),
+(116, '2019-11-14 13:10:30', 14, 'updateData', 'menu_master', '{\"id\":\"37\",\"name\":\"Data\",\"icon\":\"fa fa-check-square-o\",\"link\":\"#\",\"urutan\":\"1\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:08:53\",\"updated_at\":\"2019-10-02 08:27:23\"}'),
+(117, '2019-11-14 13:10:33', 14, 'updateData', 'menu_master', '{\"id\":\"56\",\"name\":\"Data Juara\",\"icon\":\"fa fa-star\",\"link\":\"master\\/Tbl_paket\",\"urutan\":\"2\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-23 09:38:23\",\"updated_at\":\"2019-11-14 11:08:42\"}'),
+(118, '2019-11-14 13:10:34', 14, 'updateData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(119, '2019-11-14 13:10:35', 14, 'updateData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(120, '2019-11-14 13:10:35', 14, 'updateData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(121, '2019-11-14 13:10:35', 14, 'updateData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(122, '2019-11-14 13:10:35', 14, 'updateData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(123, '2019-11-14 13:10:36', 14, 'updateData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(124, '2019-11-14 13:10:36', 14, 'updateData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(125, '2019-11-14 13:10:36', 14, 'updateData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(126, '2019-11-14 13:10:36', 14, 'updateData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(127, '2019-11-14 13:10:38', 14, 'updateData', 'menu_master', '{\"id\":\"40\",\"name\":\"Event\",\"icon\":\"fa fa-map-o\",\"link\":\"#\",\"urutan\":\"2\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:20:54\",\"updated_at\":null}'),
+(128, '2019-11-14 13:10:40', 14, 'updateData', 'menu_master', '{\"id\":\"41\",\"name\":\"Event\",\"icon\":\"fa fa-star\",\"link\":\"master\\/Tbl_event\",\"urutan\":\"0\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:21:36\",\"updated_at\":\"2019-11-14 11:05:03\"}'),
+(129, '2019-11-14 13:10:41', 14, 'updateData', 'menu_master', '{\"id\":\"41\",\"name\":\"Event\",\"icon\":\"fa fa-star\",\"link\":\"master\\/Tbl_event\",\"urutan\":\"0\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:21:36\",\"updated_at\":\"2019-11-14 11:05:03\"}'),
+(130, '2019-11-14 13:10:43', 14, 'updateData', 'menu_master', '{\"id\":\"44\",\"name\":\"Gallery\",\"icon\":\"fa fa-picture-o\",\"link\":\"#\",\"urutan\":\"5\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:25:46\",\"updated_at\":\"2019-10-31 22:27:02\"}'),
+(131, '2019-11-14 13:10:45', 14, 'updateData', 'menu_master', '{\"id\":\"54\",\"name\":\"Gallery Group\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Master_imagegroup\",\"urutan\":\"2\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-06 00:00:00\",\"updated_at\":\"2019-11-14 11:22:27\"}'),
+(132, '2019-11-14 13:10:47', 14, 'updateData', 'menu_master', '{\"id\":\"64\",\"name\":\"Gallery Items\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"1\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-31 22:23:23\",\"updated_at\":\"2019-11-14 11:25:13\"}'),
+(133, '2019-11-14 13:10:47', 14, 'updateData', 'menu_master', '{\"id\":\"64\",\"name\":\"Gallery Items\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"1\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-31 22:23:23\",\"updated_at\":\"2019-11-14 11:25:13\"}'),
+(134, '2019-11-14 13:10:49', 14, 'updateData', 'menu_master', '{\"id\":\"65\",\"name\":\"Komentar\",\"icon\":\"fa fa-comments-o\",\"link\":\"comment\",\"urutan\":\"3\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-11 11:34:53\",\"updated_at\":null}'),
+(135, '2019-11-14 13:10:56', 14, 'updateData', 'menu_master', '{\"id\":\"53\",\"name\":\"Manajer\",\"icon\":\"fa fa-user\",\"link\":\"manager\",\"urutan\":\"1\",\"parent\":\"37\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 18:47:27\",\"updated_at\":\"2019-10-02 18:48:27\"}'),
+(136, '2019-11-14 13:10:58', 14, 'updateData', 'menu_master', '{\"id\":\"49\",\"name\":\"Master\",\"icon\":\"fa fa-database\",\"link\":\"#\",\"urutan\":\"8\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:34:02\",\"updated_at\":\"2019-10-23 09:37:14\"}'),
+(137, '2019-11-14 13:10:58', 14, 'updateData', 'menu_master', '{\"id\":\"49\",\"name\":\"Master\",\"icon\":\"fa fa-database\",\"link\":\"#\",\"urutan\":\"8\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:34:02\",\"updated_at\":\"2019-10-23 09:37:14\"}'),
+(138, '2019-11-14 13:10:58', 14, 'updateData', 'menu_master', '{\"id\":\"49\",\"name\":\"Master\",\"icon\":\"fa fa-database\",\"link\":\"#\",\"urutan\":\"8\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:34:02\",\"updated_at\":\"2019-10-23 09:37:14\"}'),
+(139, '2019-11-14 13:10:58', 14, 'updateData', 'menu_master', '{\"id\":\"49\",\"name\":\"Master\",\"icon\":\"fa fa-database\",\"link\":\"#\",\"urutan\":\"8\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:34:02\",\"updated_at\":\"2019-10-23 09:37:14\"}'),
+(140, '2019-11-14 13:11:00', 14, 'updateData', 'menu_master', '{\"id\":\"45\",\"name\":\"Merchandise\",\"icon\":\"fa fa-cubes\",\"link\":\"#\",\"urutan\":\"6\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:26:29\",\"updated_at\":\"2019-10-23 09:37:00\"}'),
+(141, '2019-11-14 13:11:01', 14, 'updateData', 'menu_master', '{\"id\":\"45\",\"name\":\"Merchandise\",\"icon\":\"fa fa-cubes\",\"link\":\"#\",\"urutan\":\"6\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:26:29\",\"updated_at\":\"2019-10-23 09:37:00\"}'),
+(142, '2019-11-14 13:11:01', 14, 'updateData', 'menu_master', '{\"id\":\"45\",\"name\":\"Merchandise\",\"icon\":\"fa fa-cubes\",\"link\":\"#\",\"urutan\":\"6\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:26:29\",\"updated_at\":\"2019-10-23 09:37:00\"}'),
+(143, '2019-11-14 13:11:02', 14, 'updateData', 'menu_master', '{\"id\":\"46\",\"name\":\"Merchandise\",\"icon\":\"fa fa-table\",\"link\":\"merchandise\",\"urutan\":\"0\",\"parent\":\"45\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:29:00\",\"updated_at\":null}'),
+(144, '2019-11-14 13:11:03', 14, 'updateData', 'menu_master', '{\"id\":\"46\",\"name\":\"Merchandise\",\"icon\":\"fa fa-table\",\"link\":\"merchandise\",\"urutan\":\"0\",\"parent\":\"45\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:29:00\",\"updated_at\":null}'),
+(145, '2019-11-14 13:11:03', 14, 'updateData', 'menu_master', '{\"id\":\"46\",\"name\":\"Merchandise\",\"icon\":\"fa fa-table\",\"link\":\"merchandise\",\"urutan\":\"0\",\"parent\":\"45\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:29:00\",\"updated_at\":null}'),
+(146, '2019-11-14 13:11:05', 14, 'updateData', 'menu_master', '{\"id\":\"52\",\"name\":\"Motor\",\"icon\":\"fa fa-motorcycle\",\"link\":\"master\\/motor\",\"urutan\":\"1\",\"parent\":\"49\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 15:54:20\",\"updated_at\":\"2019-10-02 15:55:26\"}'),
+(147, '2019-11-14 13:11:05', 14, 'updateData', 'menu_master', '{\"id\":\"52\",\"name\":\"Motor\",\"icon\":\"fa fa-motorcycle\",\"link\":\"master\\/motor\",\"urutan\":\"1\",\"parent\":\"49\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 15:54:20\",\"updated_at\":\"2019-10-02 15:55:26\"}'),
+(148, '2019-11-14 13:11:05', 14, 'updateData', 'menu_master', '{\"id\":\"52\",\"name\":\"Motor\",\"icon\":\"fa fa-motorcycle\",\"link\":\"master\\/motor\",\"urutan\":\"1\",\"parent\":\"49\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 15:54:20\",\"updated_at\":\"2019-10-02 15:55:26\"}'),
+(149, '2019-11-14 13:11:06', 14, 'updateData', 'menu_master', '{\"id\":\"42\",\"name\":\"Pendaftar Event\",\"icon\":\"fa fa-users\",\"link\":\"master\\/Tbl_event_register\",\"urutan\":\"1\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:24:04\",\"updated_at\":\"2019-11-14 11:07:00\"}'),
+(150, '2019-11-14 13:11:07', 14, 'updateData', 'menu_master', '{\"id\":\"42\",\"name\":\"Pendaftar Event\",\"icon\":\"fa fa-users\",\"link\":\"master\\/Tbl_event_register\",\"urutan\":\"1\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:24:04\",\"updated_at\":\"2019-11-14 11:07:00\"}'),
+(151, '2019-11-14 13:11:07', 14, 'updateData', 'menu_master', '{\"id\":\"42\",\"name\":\"Pendaftar Event\",\"icon\":\"fa fa-users\",\"link\":\"master\\/Tbl_event_register\",\"urutan\":\"1\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:24:04\",\"updated_at\":\"2019-11-14 11:07:00\"}'),
+(152, '2019-11-14 13:11:07', 14, 'updateData', 'menu_master', '{\"id\":\"42\",\"name\":\"Pendaftar Event\",\"icon\":\"fa fa-users\",\"link\":\"master\\/Tbl_event_register\",\"urutan\":\"1\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:24:04\",\"updated_at\":\"2019-11-14 11:07:00\"}'),
+(153, '2019-11-14 13:11:07', 14, 'updateData', 'menu_master', '{\"id\":\"42\",\"name\":\"Pendaftar Event\",\"icon\":\"fa fa-users\",\"link\":\"master\\/Tbl_event_register\",\"urutan\":\"1\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:24:04\",\"updated_at\":\"2019-11-14 11:07:00\"}'),
+(154, '2019-11-14 13:11:07', 14, 'updateData', 'menu_master', '{\"id\":\"42\",\"name\":\"Pendaftar Event\",\"icon\":\"fa fa-users\",\"link\":\"master\\/Tbl_event_register\",\"urutan\":\"1\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:24:04\",\"updated_at\":\"2019-11-14 11:07:00\"}'),
+(155, '2019-11-14 13:11:10', 14, 'updateData', 'menu_master', '{\"id\":\"39\",\"name\":\"Rider\",\"icon\":\"fa fa-motorcycle\",\"link\":\"master\\/Tbl_raider\",\"urutan\":\"2\",\"parent\":\"37\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:10:13\",\"updated_at\":\"2019-11-14 11:00:33\"}'),
+(156, '2019-11-14 13:11:11', 14, 'updateData', 'menu_master', '{\"id\":\"62\",\"name\":\"Setting\",\"icon\":\"fa fa-link\",\"link\":\"#\",\"urutan\":\"9\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-25 19:25:00\",\"updated_at\":\"2019-10-25 19:25:47\"}'),
+(157, '2019-11-14 13:11:12', 14, 'updateData', 'menu_master', '{\"id\":\"62\",\"name\":\"Setting\",\"icon\":\"fa fa-link\",\"link\":\"#\",\"urutan\":\"9\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-25 19:25:00\",\"updated_at\":\"2019-10-25 19:25:47\"}'),
+(158, '2019-11-14 13:11:14', 14, 'updateData', 'menu_master', '{\"id\":\"38\",\"name\":\"Team\",\"icon\":\"fa fa-users\",\"link\":\"master\\/Tbl_team\",\"urutan\":\"0\",\"parent\":\"37\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-02 08:09:30\",\"updated_at\":\"2019-11-14 11:02:47\"}'),
+(159, '2019-11-14 13:11:16', 14, 'updateData', 'menu_master', '{\"id\":\"55\",\"name\":\"Wisata\",\"icon\":\"fa fa-star\",\"link\":\"#\",\"urutan\":\"3\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-23 09:36:26\",\"updated_at\":\"2019-10-23 09:42:41\"}'),
+(160, '2019-11-14 13:11:16', 14, 'updateData', 'menu_master', '{\"id\":\"55\",\"name\":\"Wisata\",\"icon\":\"fa fa-star\",\"link\":\"#\",\"urutan\":\"3\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:36:26\",\"updated_at\":\"2019-10-23 09:42:41\"}'),
+(161, '2019-11-14 13:11:18', 14, 'updateData', 'menu_master', '{\"id\":\"60\",\"name\":\"Wisata\",\"icon\":\"fa fa-star\",\"link\":\"master\\/Tbl_wisata\",\"urutan\":\"0\",\"parent\":\"55\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-10-23 09:45:58\",\"updated_at\":\"2019-11-14 11:14:45\"}'),
+(162, '2019-11-14 13:11:24', 14, 'deleteData', 'menu_master', '{\"id\":\"48\",\"name\":\"Admin Users\",\"icon\":\"fa fa-user\",\"link\":\"users\",\"urutan\":\"7\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:33:44\",\"updated_at\":\"2019-10-23 09:37:08\"}'),
+(163, '2019-11-14 13:11:58', 14, 'updateData', 'menu_master', '{\"id\":\"66\",\"name\":\"Event\",\"icon\":\"fa fa-start\",\"link\":\"#\",\"urutan\":\"2\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:11:45\",\"updated_at\":null}'),
+(164, '2019-11-14 13:12:42', 14, 'deleteData', 'menu_master', '{\"id\":\"43\",\"name\":\"Blog \\/ Informasi\",\"icon\":\"fa fa-newspaper-o\",\"link\":\"master\\/Tbl_blog\",\"urutan\":\"4\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:25:20\",\"updated_at\":\"2019-11-14 11:20:00\"}'),
+(165, '2019-11-14 13:12:46', 14, 'deleteData', 'menu_master', '{\"id\":\"63\",\"name\":\"Config\",\"icon\":\"fa fa-link\",\"link\":\"config\",\"urutan\":\"0\",\"parent\":\"62\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-25 19:25:14\",\"updated_at\":\"2019-10-25 19:26:05\"}'),
+(166, '2019-11-14 13:12:51', 14, 'deleteData', 'menu_master', '{\"id\":\"53\",\"name\":\"Manajer\",\"icon\":\"fa fa-user\",\"link\":\"manager\",\"urutan\":\"1\",\"parent\":\"37\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 18:47:27\",\"updated_at\":\"2019-10-02 18:48:27\"}'),
+(167, '2019-11-14 13:12:53', 14, 'deleteData', 'menu_master', '{\"id\":\"37\",\"name\":\"Data\",\"icon\":\"fa fa-check-square-o\",\"link\":\"#\",\"urutan\":\"1\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:08:53\",\"updated_at\":\"2019-10-02 08:27:23\"}'),
+(168, '2019-11-14 13:12:56', 14, 'deleteData', 'menu_master', '{\"id\":\"56\",\"name\":\"Data Juara\",\"icon\":\"fa fa-star\",\"link\":\"master\\/Tbl_paket\",\"urutan\":\"2\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:23\",\"updated_at\":\"2019-11-14 11:08:42\"}'),
+(169, '2019-11-14 13:12:59', 14, 'deleteData', 'menu_master', '{\"id\":\"57\",\"name\":\"Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"3\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:38:52\",\"updated_at\":\"2019-11-14 11:12:33\"}'),
+(170, '2019-11-14 13:13:01', 14, 'deleteData', 'menu_master', '{\"id\":\"40\",\"name\":\"Event\",\"icon\":\"fa fa-map-o\",\"link\":\"#\",\"urutan\":\"2\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:20:54\",\"updated_at\":null}'),
+(171, '2019-11-14 13:13:04', 14, 'deleteData', 'menu_master', '{\"id\":\"41\",\"name\":\"Event\",\"icon\":\"fa fa-star\",\"link\":\"master\\/Tbl_event\",\"urutan\":\"0\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:21:36\",\"updated_at\":\"2019-11-14 11:05:03\"}'),
+(172, '2019-11-14 13:13:06', 14, 'deleteData', 'menu_master', '{\"id\":\"44\",\"name\":\"Gallery\",\"icon\":\"fa fa-picture-o\",\"link\":\"#\",\"urutan\":\"5\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:25:46\",\"updated_at\":\"2019-10-31 22:27:02\"}'),
+(173, '2019-11-14 13:13:09', 14, 'deleteData', 'menu_master', '{\"id\":\"54\",\"name\":\"Gallery Group\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Master_imagegroup\",\"urutan\":\"2\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-06 00:00:00\",\"updated_at\":\"2019-11-14 11:22:27\"}'),
+(174, '2019-11-14 13:13:12', 14, 'deleteData', 'menu_master', '{\"id\":\"64\",\"name\":\"Gallery Items\",\"icon\":\"fa fa-picture-o\",\"link\":\"master\\/Tbl_gallery\",\"urutan\":\"1\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-31 22:23:23\",\"updated_at\":\"2019-11-14 11:25:13\"}'),
+(175, '2019-11-14 13:13:15', 14, 'deleteData', 'menu_master', '{\"id\":\"65\",\"name\":\"Komentar\",\"icon\":\"fa fa-comments-o\",\"link\":\"comment\",\"urutan\":\"3\",\"parent\":\"44\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-11-11 11:34:53\",\"updated_at\":null}'),
+(176, '2019-11-14 13:13:17', 14, 'deleteData', 'menu_master', '{\"id\":\"49\",\"name\":\"Master\",\"icon\":\"fa fa-database\",\"link\":\"#\",\"urutan\":\"8\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:34:02\",\"updated_at\":\"2019-10-23 09:37:14\"}'),
+(177, '2019-11-14 13:13:22', 14, 'deleteData', 'menu_master', '{\"id\":\"45\",\"name\":\"Merchandise\",\"icon\":\"fa fa-cubes\",\"link\":\"#\",\"urutan\":\"6\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:26:29\",\"updated_at\":\"2019-10-23 09:37:00\"}'),
+(178, '2019-11-14 13:13:24', 14, 'deleteData', 'menu_master', '{\"id\":\"46\",\"name\":\"Merchandise\",\"icon\":\"fa fa-table\",\"link\":\"merchandise\",\"urutan\":\"0\",\"parent\":\"45\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:29:00\",\"updated_at\":null}'),
+(179, '2019-11-14 13:13:27', 14, 'deleteData', 'menu_master', '{\"id\":\"52\",\"name\":\"Motor\",\"icon\":\"fa fa-motorcycle\",\"link\":\"master\\/motor\",\"urutan\":\"1\",\"parent\":\"49\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 15:54:20\",\"updated_at\":\"2019-10-02 15:55:26\"}'),
+(180, '2019-11-14 13:13:30', 14, 'deleteData', 'menu_master', '{\"id\":\"42\",\"name\":\"Pendaftar Event\",\"icon\":\"fa fa-users\",\"link\":\"master\\/Tbl_event_register\",\"urutan\":\"1\",\"parent\":\"40\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:24:04\",\"updated_at\":\"2019-11-14 11:07:00\"}'),
+(181, '2019-11-14 13:13:33', 14, 'deleteData', 'menu_master', '{\"id\":\"50\",\"name\":\"Pengaturan\",\"icon\":\"fa fa-link\",\"link\":\"#\",\"urutan\":\"8\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:35:08\",\"updated_at\":\"2019-10-02 08:35:33\"}'),
+(182, '2019-11-14 13:13:36', 14, 'deleteData', 'menu_master', '{\"id\":\"39\",\"name\":\"Rider\",\"icon\":\"fa fa-motorcycle\",\"link\":\"master\\/Tbl_raider\",\"urutan\":\"2\",\"parent\":\"37\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:10:13\",\"updated_at\":\"2019-11-14 11:00:33\"}'),
+(183, '2019-11-14 13:13:39', 14, 'deleteData', 'menu_master', '{\"id\":\"62\",\"name\":\"Setting\",\"icon\":\"fa fa-link\",\"link\":\"#\",\"urutan\":\"9\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-25 19:25:00\",\"updated_at\":\"2019-10-25 19:25:47\"}'),
+(184, '2019-11-14 13:13:41', 14, 'deleteData', 'menu_master', '{\"id\":\"38\",\"name\":\"Team\",\"icon\":\"fa fa-users\",\"link\":\"master\\/Tbl_team\",\"urutan\":\"0\",\"parent\":\"37\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:09:30\",\"updated_at\":\"2019-11-14 11:02:47\"}'),
+(185, '2019-11-14 13:13:44', 14, 'deleteData', 'menu_master', '{\"id\":\"47\",\"name\":\"Transaksi Merchandise\",\"icon\":\"fa fa-money \",\"link\":\"transaction\",\"urutan\":\"1\",\"parent\":\"45\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-02 08:30:04\",\"updated_at\":null}'),
+(186, '2019-11-14 13:13:47', 14, 'deleteData', 'menu_master', '{\"id\":\"55\",\"name\":\"Wisata\",\"icon\":\"fa fa-star\",\"link\":\"#\",\"urutan\":\"3\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:36:26\",\"updated_at\":\"2019-10-23 09:42:41\"}'),
+(187, '2019-11-14 13:13:51', 14, 'deleteData', 'menu_master', '{\"id\":\"60\",\"name\":\"Wisata\",\"icon\":\"fa fa-star\",\"link\":\"master\\/Tbl_wisata\",\"urutan\":\"0\",\"parent\":\"55\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:45:58\",\"updated_at\":\"2019-11-14 11:14:45\"}');
+INSERT INTO `log_aktivitas` (`log_id`, `log_created_at`, `log_created_by`, `log_action`, `log_tablename`, `log_jsondata`) VALUES
+(188, '2019-11-14 13:13:53', 14, 'deleteData', 'menu_master', '{\"id\":\"61\",\"name\":\"Wisata Dokumentasi\",\"icon\":\"fa fa-picture-o\",\"link\":\"wisatadokumentasi\",\"urutan\":\"1\",\"parent\":\"55\",\"notif\":\"\",\"status\":\"DISABLE\",\"created_at\":\"2019-10-23 09:46:14\",\"updated_at\":null}'),
+(189, '2019-11-14 13:15:33', 14, 'updateData', 'role', '{\"id\":\"17\",\"role\":\"PANITIA\",\"status\":\"ENABLE\",\"menu\":\"[\\\"1\\\",\\\"37\\\",\\\"38\\\",\\\"39\\\",\\\"40\\\",\\\"41\\\",\\\"42\\\",\\\"56\\\",\\\"57\\\",\\\"55\\\",\\\"60\\\",\\\"43\\\",\\\"44\\\",\\\"54\\\",\\\"64\\\",\\\"65\\\",\\\"45\\\",\\\"46\\\",\\\"48\\\",\\\"49\\\",\\\"52\\\",\\\"62\\\",\\\"63\\\"]\",\"created_at\":\"2018-10-12 17:03:59\",\"updated_at\":\"2019-11-11 11:35:06\"}'),
+(190, '2019-11-14 13:15:57', 14, 'updateData', 'menu_master', '{\"id\":\"68\",\"name\":\"Data Event\",\"icon\":\"fa fa-star\",\"link\":\"#\",\"urutan\":\"1\",\"parent\":\"66\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:14:53\",\"updated_at\":null}'),
+(191, '2019-11-14 13:16:13', 14, 'updateData', 'menu_master', '{\"id\":\"68\",\"name\":\"Data Event\",\"icon\":\"fa fa-star-o\",\"link\":\"#\",\"urutan\":\"1\",\"parent\":\"66\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:14:53\",\"updated_at\":\"2019-11-14 13:15:57\"}'),
+(192, '2019-11-14 13:16:25', 14, 'updateData', 'menu_master', '{\"id\":\"68\",\"name\":\"Data Event\",\"icon\":\"fa fa-map-o\",\"link\":\"#\",\"urutan\":\"1\",\"parent\":\"66\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:14:53\",\"updated_at\":\"2019-11-14 13:16:13\"}'),
+(193, '2019-11-14 13:16:32', 14, 'updateData', 'menu_master', '{\"id\":\"66\",\"name\":\"Event\",\"icon\":\"fa fa-start\",\"link\":\"#\",\"urutan\":\"1\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:11:45\",\"updated_at\":\"2019-11-14 13:11:58\"}'),
+(194, '2019-11-14 13:17:47', 14, 'updateData', 'menu_master', '{\"id\":\"70\",\"name\":\"Wisata\",\"icon\":\"fa fa-picutre-o\",\"link\":\"#\",\"urutan\":\"3\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:16:51\",\"updated_at\":null}'),
+(195, '2019-11-14 13:19:47', 14, 'updateData', 'role', '{\"id\":\"17\",\"role\":\"PANITIA\",\"status\":\"ENABLE\",\"menu\":\"[\\\"1\\\",\\\"66\\\",\\\"67\\\",\\\"68\\\",\\\"69\\\"]\",\"created_at\":\"2018-10-12 17:03:59\",\"updated_at\":\"2019-11-14 13:15:33\"}'),
+(196, '2019-11-14 13:21:55', 14, 'updateData', 'role', '{\"id\":\"17\",\"role\":\"PANITIA\",\"status\":\"ENABLE\",\"menu\":\"[\\\"1\\\",\\\"66\\\",\\\"67\\\",\\\"68\\\",\\\"69\\\",\\\"70\\\",\\\"71\\\",\\\"72\\\",\\\"73\\\",\\\"74\\\"]\",\"created_at\":\"2018-10-12 17:03:59\",\"updated_at\":\"2019-11-14 13:19:47\"}'),
+(197, '2019-11-14 13:22:16', 14, 'updateData', 'menu_master', '{\"id\":\"75\",\"name\":\"Data Motor\",\"icon\":\"fa fa-motorcycle-o\",\"link\":\"#\",\"urutan\":\"7\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:20:54\",\"updated_at\":null}'),
+(198, '2019-11-14 13:22:26', 14, 'updateData', 'menu_master', '{\"id\":\"76\",\"name\":\"Data Sponsor\",\"icon\":\"fa-handshake-o\",\"link\":\"#\",\"urutan\":\"8\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:21:45\",\"updated_at\":null}'),
+(199, '2019-11-14 13:23:28', 14, 'updateData', 'menu_master', '{\"id\":\"76\",\"name\":\"Data Sponsor\",\"icon\":\"fa-handshake\",\"link\":\"#\",\"urutan\":\"8\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:21:45\",\"updated_at\":\"2019-11-14 13:22:26\"}'),
+(200, '2019-11-14 13:23:42', 14, 'updateData', 'menu_master', '{\"id\":\"76\",\"name\":\"Data Sponsor\",\"icon\":\" fa-check\",\"link\":\"#\",\"urutan\":\"8\",\"parent\":\"0\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:21:45\",\"updated_at\":\"2019-11-14 13:23:28\"}'),
+(201, '2019-11-14 13:26:13', 14, 'updateData', 'role', '{\"id\":\"17\",\"role\":\"PANITIA\",\"status\":\"ENABLE\",\"menu\":\"[\\\"1\\\",\\\"66\\\",\\\"67\\\",\\\"68\\\",\\\"69\\\",\\\"70\\\",\\\"71\\\",\\\"72\\\",\\\"73\\\",\\\"74\\\",\\\"75\\\",\\\"76\\\"]\",\"created_at\":\"2018-10-12 17:03:59\",\"updated_at\":\"2019-11-14 13:21:55\"}'),
+(202, '2019-11-14 13:39:12', 14, 'updateData', 'menu_master', '{\"id\":\"68\",\"name\":\"Data Event\",\"icon\":\"fa fa-star-o\",\"link\":\"#\",\"urutan\":\"1\",\"parent\":\"66\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:14:53\",\"updated_at\":\"2019-11-14 13:16:25\"}'),
+(203, '2019-11-14 13:39:29', 14, 'updateData', 'menu_master', '{\"id\":\"67\",\"name\":\"Buat Event\",\"icon\":\"fa fa-plus\",\"link\":\"#\",\"urutan\":\"0\",\"parent\":\"66\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:12:33\",\"updated_at\":null}'),
+(204, '2019-11-14 13:39:51', 14, 'updateData', 'menu_master', '{\"id\":\"67\",\"name\":\"Buat Event\",\"icon\":\"fa fa-plus\",\"link\":\"Tbl_event\\/create\",\"urutan\":\"0\",\"parent\":\"66\",\"notif\":\"\",\"status\":\"ENABLE\",\"created_at\":\"2019-11-14 13:12:33\",\"updated_at\":\"2019-11-14 13:39:29\"}');
 
 -- --------------------------------------------------------
 
@@ -1258,32 +1349,20 @@ CREATE TABLE `menu_master` (
 
 INSERT INTO `menu_master` (`id`, `name`, `icon`, `link`, `urutan`, `parent`, `notif`, `status`, `created_at`, `updated_at`) VALUES
 (1, 'Dashboard', 'fa fa-dashboard', '/', '0', '0', '', 'ENABLE', '2019-01-17 14:33:33', '2019-10-02 08:10:30'),
-(37, 'Data', 'fa fa-check-square-o', '#', '1', '0', '', 'ENABLE', '2019-10-02 08:08:53', '2019-10-02 08:27:23'),
-(38, 'Team', 'fa fa-users', 'master/Tbl_team', '0', '37', '', 'ENABLE', '2019-10-02 08:09:30', '2019-11-14 11:02:47'),
-(39, 'Rider', 'fa fa-motorcycle', 'master/Tbl_raider', '2', '37', '', 'ENABLE', '2019-10-02 08:10:13', '2019-11-14 11:00:33'),
-(40, 'Event', 'fa fa-map-o', '#', '2', '0', '', 'ENABLE', '2019-10-02 08:20:54', NULL),
-(41, 'Event', 'fa fa-star', 'master/Tbl_event', '0', '40', '', 'ENABLE', '2019-10-02 08:21:36', '2019-11-14 11:05:03'),
-(42, 'Pendaftar Event', 'fa fa-users', 'master/Tbl_event_register', '1', '40', '', 'ENABLE', '2019-10-02 08:24:04', '2019-11-14 11:07:00'),
-(43, 'Blog / Informasi', 'fa fa-newspaper-o', 'master/Tbl_blog', '4', '0', '', 'ENABLE', '2019-10-02 08:25:20', '2019-11-14 11:20:00'),
-(44, 'Gallery', 'fa fa-picture-o', '#', '5', '0', '', 'ENABLE', '2019-10-02 08:25:46', '2019-10-31 22:27:02'),
-(45, 'Merchandise', 'fa fa-cubes', '#', '6', '0', '', 'ENABLE', '2019-10-02 08:26:29', '2019-10-23 09:37:00'),
-(46, 'Merchandise', 'fa fa-table', 'merchandise', '0', '45', '', 'ENABLE', '2019-10-02 08:29:00', NULL),
-(47, 'Transaksi Merchandise', 'fa fa-money ', 'transaction', '1', '45', '', 'DISABLE', '2019-10-02 08:30:04', NULL),
-(48, 'Admin Users', 'fa fa-user', 'users', '7', '0', '', 'ENABLE', '2019-10-02 08:33:44', '2019-10-23 09:37:08'),
-(49, 'Master', 'fa fa-database', '#', '8', '0', '', 'ENABLE', '2019-10-02 08:34:02', '2019-10-23 09:37:14'),
-(50, 'Pengaturan', 'fa fa-link', '#', '8', '0', '', 'DISABLE', '2019-10-02 08:35:08', '2019-10-02 08:35:33'),
-(52, 'Motor', 'fa fa-motorcycle', 'master/motor', '1', '49', '', 'ENABLE', '2019-10-02 15:54:20', '2019-10-02 15:55:26'),
-(53, 'Manajer', 'fa fa-user', 'manager', '1', '37', '', 'ENABLE', '2019-10-02 18:47:27', '2019-10-02 18:48:27'),
-(54, 'Gallery Group', 'fa fa-picture-o', 'master/Master_imagegroup', '2', '44', '', 'ENABLE', '2019-10-06 00:00:00', '2019-11-14 11:22:27'),
-(55, 'Wisata', 'fa fa-star', '#', '3', '0', '', 'ENABLE', '2019-10-23 09:36:26', '2019-10-23 09:42:41'),
-(56, 'Data Juara', 'fa fa-star', 'master/Tbl_paket', '2', '40', '', 'ENABLE', '2019-10-23 09:38:23', '2019-11-14 11:08:42'),
-(57, 'Dokumentasi', 'fa fa-picture-o', 'master/Tbl_gallery', '3', '40', '', 'ENABLE', '2019-10-23 09:38:52', '2019-11-14 11:12:33'),
-(60, 'Wisata', 'fa fa-star', 'master/Tbl_wisata', '0', '55', '', 'ENABLE', '2019-10-23 09:45:58', '2019-11-14 11:14:45'),
-(61, 'Wisata Dokumentasi', 'fa fa-picture-o', 'wisatadokumentasi', '1', '55', '', 'DISABLE', '2019-10-23 09:46:14', NULL),
-(62, 'Setting', 'fa fa-link', '#', '9', '0', '', 'ENABLE', '2019-10-25 19:25:00', '2019-10-25 19:25:47'),
-(63, 'Config', 'fa fa-link', 'config', '0', '62', '', 'ENABLE', '2019-10-25 19:25:14', '2019-10-25 19:26:05'),
-(64, 'Gallery Items', 'fa fa-picture-o', 'master/Tbl_gallery', '1', '44', '', 'ENABLE', '2019-10-31 22:23:23', '2019-11-14 11:25:13'),
-(65, 'Komentar', 'fa fa-comments-o', 'comment', '3', '44', '', 'ENABLE', '2019-11-11 11:34:53', NULL);
+(66, 'Event', 'fa fa-star-o', '#', '1', '0', '', 'ENABLE', '2019-11-14 13:11:45', '2019-11-14 13:16:32'),
+(67, 'Buat Event', 'fa fa-plus', 'master/Tbl_event/create', '0', '66', '', 'ENABLE', '2019-11-14 13:12:33', '2019-11-14 13:39:51'),
+(68, 'Data Event', 'fa fa-star-o', 'master/Tbl_event', '1', '66', '', 'ENABLE', '2019-11-14 13:14:53', '2019-11-14 13:39:12'),
+(69, 'Data Pendaftar', 'fa fa-list', '#', '2', '0', '', 'ENABLE', '2019-11-14 13:15:23', NULL),
+(70, 'Wisata', 'fa fa-star', '#', '3', '0', '', 'ENABLE', '2019-11-14 13:16:51', '2019-11-14 13:17:47'),
+(71, 'News', 'fa fa-newspaper-o', '#', '4', '0', '', 'ENABLE', '2019-11-14 13:17:22', NULL),
+(72, 'Gallery', 'fa fa-picture-o', '#', '4', '0', '', 'ENABLE', '2019-11-14 13:18:08', NULL),
+(73, 'Merchandise', 'fa fa-cubes', '#', '6', '0', '', 'ENABLE', '2019-11-14 13:18:53', NULL),
+(74, 'Data Admin', 'fa fa-user', '#', '7', '0', '', 'ENABLE', '2019-11-14 13:19:26', NULL),
+(75, 'Data Motor', 'fa fa-motorcycle', '#', '7', '0', '', 'ENABLE', '2019-11-14 13:20:54', '2019-11-14 13:22:16'),
+(76, 'Data Sponsor', 'fa  fa-check', '#', '8', '0', '', 'ENABLE', '2019-11-14 13:21:45', '2019-11-14 13:23:42'),
+(77, 'Konfigurasi', 'fa fa-link', '#', '9', '0', '', 'ENABLE', '2019-11-14 13:24:28', NULL),
+(78, 'Nomor Admin', 'fa fa-phone', '#', '0', '77', '', 'ENABLE', '2019-11-14 13:25:34', NULL),
+(79, 'Teks Sponsor', 'fa fa-check', '#', '1', '77', '', 'ENABLE', '2019-11-14 13:26:02', NULL);
 
 -- --------------------------------------------------------
 
@@ -1321,7 +1400,7 @@ CREATE TABLE `role` (
 --
 
 INSERT INTO `role` (`id`, `role`, `status`, `menu`, `created_at`, `updated_at`) VALUES
-(17, 'PANITIA', 'ENABLE', '[\"1\",\"37\",\"38\",\"39\",\"40\",\"41\",\"42\",\"56\",\"57\",\"55\",\"60\",\"43\",\"44\",\"54\",\"64\",\"65\",\"45\",\"46\",\"48\",\"49\",\"52\",\"62\",\"63\"]', '2018-10-12 17:03:59', '2019-11-11 11:35:06');
+(17, 'PANITIA', 'ENABLE', '[\"1\",\"66\",\"67\",\"68\",\"69\",\"70\",\"71\",\"72\",\"73\",\"74\",\"75\",\"76\",\"77\",\"78\",\"79\"]', '2018-10-12 17:03:59', '2019-11-14 13:26:13');
 
 -- --------------------------------------------------------
 
@@ -1659,32 +1738,24 @@ CREATE TABLE `tbl_event` (
   `title` varchar(225) DEFAULT NULL,
   `tgleventStart` date DEFAULT NULL,
   `tgleventEnd` date DEFAULT NULL,
-  `phone` varchar(225) DEFAULT NULL,
   `harga` varchar(225) DEFAULT NULL,
   `deskripsi` text DEFAULT NULL,
   `kota` varchar(225) DEFAULT NULL,
-  `alamat` text DEFAULT NULL,
+  `tipe_pendaftaran` enum('Individu','Team') DEFAULT NULL,
   `minraider` int(11) DEFAULT NULL,
   `maxraider` int(11) DEFAULT NULL,
+  `TglCloseDaftar` date DEFAULT NULL,
   `live_url` text DEFAULT NULL,
   `latitude` float DEFAULT NULL,
   `longitude` float DEFAULT NULL,
-  `statusEvent` enum('STARTED','BERJALAN','SELESAI','BATAL') NOT NULL,
+  `statusEvent` enum('DIBUKA','DITUTUP','BERJALAN','COMMINGSOON') NOT NULL,
+  `tipeEvent` enum('UTAMA','TIDAKUTAMA') NOT NULL,
   `public` enum('ENABLE','DISABLE') DEFAULT NULL,
   `status` enum('ENABLE','DISABLE') DEFAULT NULL,
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   `created_by` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data untuk tabel `tbl_event`
---
-
-INSERT INTO `tbl_event` (`id`, `title`, `tgleventStart`, `tgleventEnd`, `phone`, `harga`, `deskripsi`, `kota`, `alamat`, `minraider`, `maxraider`, `live_url`, `latitude`, `longitude`, `statusEvent`, `public`, `status`, `created_at`, `updated_at`, `created_by`) VALUES
-(4, 'INDONESIA ENDURO RALLY CHAMPIONSHIP 2019', '2019-11-01', '2019-11-03', '62811333037', '7500000', '<p>INDONESIA ENDURO RALLY CHAMPIONSHIP 2019<br><br>BANYUWANGI - BROMO<br>1,2,3 NOVEMBER 2019<br><br>Support by :<br>@jpxhelmet @top1indonesia @metzeler_indonesia @ktmindonesiaofficial @husqvarna_id @indonesiaendurorally<br></p>', 'BANYUWANGI', 'BANYUWANGI - BROMO', 3, 3, 'http://lt.flymaster.net/?grp=3132', 0, 0, 'BERJALAN', 'ENABLE', 'ENABLE', '2019-10-24 19:03:45', '2019-11-01 19:44:57', NULL),
-(7, 'ACTOR OFFROAD', NULL, NULL, '62811333037', '-', '<p>\r\n\r\nActor Offroad Adventure With Roy Jeconiah - Andy/Rif Matteo Guerinoni<br></p>', '-', 'MALNG - BROMO', 1, 3, '', 0, 0, 'STARTED', 'ENABLE', 'ENABLE', '2019-10-30 13:50:31', '2019-11-01 16:22:30', NULL),
-(8, 'MAT EIGHT', '2019-06-29', '2019-06-30', '62811333037', '750000', '<p>MAT EIGHT<br></p>', 'Malang - Bromo', 'MALNG - BROMO', 1, 3, '', 0, 0, 'SELESAI', 'ENABLE', 'ENABLE', '2019-10-30 18:38:20', '2019-11-01 16:22:52', NULL);
 
 -- --------------------------------------------------------
 
@@ -2378,326 +2449,6 @@ INSERT INTO `tbl_paket_detail` (`id`, `id_paket`, `id_team`, `id_raider`, `numbe
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tbl_raider`
---
-
-CREATE TABLE `tbl_raider` (
-  `id` int(11) NOT NULL,
-  `team_id` int(11) DEFAULT NULL,
-  `name` varchar(225) DEFAULT NULL,
-  `alamat` text DEFAULT NULL,
-  `kota` varchar(225) DEFAULT NULL,
-  `tgllahir` date DEFAULT NULL,
-  `nostart` int(11) DEFAULT NULL,
-  `namajersey` varchar(225) DEFAULT NULL,
-  `ukuran_jersey` varchar(225) DEFAULT NULL,
-  `motor_id` int(11) DEFAULT NULL,
-  `nowa` varchar(225) DEFAULT NULL,
-  `goldarah` varchar(225) DEFAULT NULL,
-  `verificacion` enum('ENABLE','DISABLE') DEFAULT NULL,
-  `email` varchar(225) DEFAULT NULL,
-  `password` text DEFAULT NULL,
-  `eventikut` int(11) DEFAULT NULL,
-  `status` enum('ENABLE','DISABLE') DEFAULT NULL,
-  `created_at` datetime DEFAULT NULL,
-  `updated_at` datetime DEFAULT NULL,
-  `created_by` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data untuk tabel `tbl_raider`
---
-
-INSERT INTO `tbl_raider` (`id`, `team_id`, `name`, `alamat`, `kota`, `tgllahir`, `nostart`, `namajersey`, `ukuran_jersey`, `motor_id`, `nowa`, `goldarah`, `verificacion`, `email`, `password`, `eventikut`, `status`, `created_at`, `updated_at`, `created_by`) VALUES
-(101, 51, 'DAVID', '', '', '0000-00-00', 87, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(102, 51, 'GOGIK ', '', '', '0000-00-00', 34, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(103, 51, 'NANTO', '', '', '0000-00-00', 16, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(104, 52, 'SUNU', '', '', '0000-00-00', 503, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(105, 52, 'EEN BOLANG', '', '', '0000-00-00', 994, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(106, 52, 'ENO AJI ', '', '', '0000-00-00', 26, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(107, 53, 'IWAN BALAW', '', '', '0000-00-00', 18, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(108, 53, 'ICAN ', '', '', '0000-00-00', 111, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(109, 53, 'IFAN BOBO', '', '', '0000-00-00', 0, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(110, 54, 'KABAYAN', '', '', '0000-00-00', 777, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(111, 54, 'PROF', '', '', '0000-00-00', 555, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(112, 54, 'AMA RIDO', '', '', '0000-00-00', 512, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(113, 55, 'SETIAWAN FIT', '', '', '0000-00-00', 96, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(114, 55, 'ANGGA F', '', '', '0000-00-00', 997, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(115, 55, 'RNX ', '', '', '0000-00-00', 453, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(116, 56, 'KABOEL', '', '', '0000-00-00', 111, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(117, 56, 'RUDI MBEK ', '', '', '0000-00-00', 35, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(118, 56, 'ARIEF ', '', '', '0000-00-00', 8, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(119, 57, 'ANTO', '', '', '0000-00-00', 0, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(120, 57, 'W2 ', '', '', '0000-00-00', 301, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(121, 57, 'PUJIBONDOL', '', '', '0000-00-00', 22, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(122, 58, 'ADHIE 68 ', '', '', '0000-00-00', 68, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(123, 58, 'ALX', '', '', '0000-00-00', 63, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(124, 58, 'HOSEN', '', '', '0000-00-00', 23, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(125, 59, 'BABE', '', '', '0000-00-00', 52, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(126, 59, 'BUDI BGR', '', '', '0000-00-00', 81, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(127, 59, 'ROBI', '', '', '0000-00-00', 5, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(128, 60, 'OEMAR', '', '', '0000-00-00', 321, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(129, 60, 'MR. KM ', '', '', '0000-00-00', 15, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(130, 60, 'PICON', '', '', '0000-00-00', 57, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(131, 61, 'GARRY ', '', '', '0000-00-00', 18, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(132, 61, 'BAYU MCC ', '', '', '0000-00-00', 55, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(133, 61, 'DHARMA ', '', '', '0000-00-00', 7, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(134, 62, 'R. POA ', '', '', '0000-00-00', 153, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(135, 62, 'EDY ', '', '', '0000-00-00', 117, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(136, 62, 'DURY BELONA ', '', '', '0000-00-00', 212, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(137, 63, 'ARY ', '', '', '0000-00-00', 26, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(138, 63, 'PHILLIPS ', '', '', '0000-00-00', 46, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(139, 63, 'SIDIQ', '', '', '0000-00-00', 179, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(140, 64, 'DANANG ', '', '', '0000-00-00', 11, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(141, 64, 'POMO SU ', '', '', '0000-00-00', 888, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(142, 64, 'BOBY ', '', '', '0000-00-00', 2, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(143, 65, 'IRMA ', '', '', '0000-00-00', 25, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(144, 65, 'AW ', '', '', '0000-00-00', 2, '', 'S', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(145, 65, 'AGIE ', '', '', '0000-00-00', 17, '', 'S', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(146, 66, 'ARDI IDRA', '', '', '0000-00-00', 168, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(147, 66, 'EDI LAGA', '', '', '0000-00-00', 29, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(148, 66, 'JIK ANOM', '', '', '0000-00-00', 678, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(149, 67, 'MIING', '', '', '0000-00-00', 808, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(150, 67, 'ARDA OZAWA', '', '', '0000-00-00', 55, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(151, 67, 'CAPTAIN DEDY', '', '', '0000-00-00', 178, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(152, 68, 'JARAN ALAS', '', '', '0000-00-00', 69, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(153, 68, 'ABAH HERU', '', '', '0000-00-00', 18, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(154, 68, 'SUHADAK SUMOLEWO', '', '', '0000-00-00', 818, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(155, 69, 'TRONDOL', '', '', '0000-00-00', 26, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(156, 69, 'AMBAR ', '', '', '0000-00-00', 81, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(157, 69, 'JOE PANTAU ', '', '', '0000-00-00', 43, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(158, 70, 'ERIKSEN ', '', '', '0000-00-00', 168, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(159, 70, 'AGOES ', '', '', '0000-00-00', 72, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(160, 70, 'KUMPRUNG EDAN', '', '', '0000-00-00', 21, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(161, 71, 'GEMAK ', '', '', '0000-00-00', 8, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(162, 71, 'DR. TEDJO', '', '', '0000-00-00', 70, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(163, 71, 'KISWADI DTSP', '', '', '0000-00-00', 45, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(164, 72, 'HERJUNO ', '', '', '0000-00-00', 22, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(165, 72, '@FENDY_ERBE', '', '', '0000-00-00', 83, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(166, 72, 'SI DUR ', '', '', '0000-00-00', 52, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(167, 73, 'DAVID JS ', '', '', '0000-00-00', 8, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(168, 73, 'F. MUCHTAR', '', '', '0000-00-00', 360, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(169, 73, 'O\'BOY ', '', '', '0000-00-00', 5, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(170, 74, 'APU ', '', '', '0000-00-00', 218, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(171, 74, 'ANFAUZI ', '', '', '0000-00-00', 6666, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(172, 74, 'SYAMSUDIN (BM) ', '', '', '0000-00-00', 57, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(173, 75, 'D\'JHONEZ', '', '', '0000-00-00', 12, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(174, 75, 'HENDRIE SEBO ', '', '', '0000-00-00', 11, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(175, 75, 'AGUNG WP ', '', '', '0000-00-00', 21, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(176, 76, 'ADITYA SABRINK ', '', '', '0000-00-00', 31, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(177, 76, 'LURAE ', '', '', '0000-00-00', 87, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(178, 76, 'SI OS ', '', '', '0000-00-00', 5, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(179, 77, 'KELIK ', '', '', '0000-00-00', 51, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(180, 77, 'SEMUT IRENG ', '', '', '0000-00-00', 51, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(181, 77, 'DORI ', '', '', '0000-00-00', 51, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(182, 78, 'MANTAN ', '', '', '0000-00-00', 505, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(183, 78, 'BRAM ', '', '', '0000-00-00', 89, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(184, 78, 'CHOLID ', '', '', '0000-00-00', 7, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(185, 79, 'RIZQON ', '', '', '0000-00-00', 79, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(186, 79, 'OPA FUAD ', '', '', '0000-00-00', 21, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(187, 79, 'RAJIV ', '', '', '0000-00-00', 333, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(188, 80, 'HARTONO ', '', '', '0000-00-00', 125, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(189, 80, 'ROU PUBLIK ', '', '', '0000-00-00', 208, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(190, 80, 'SION ', '', '', '0000-00-00', 48, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(191, 81, 'JILOND', '', '', '0000-00-00', 57, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(192, 81, 'C-GATE', '', '', '0000-00-00', 46, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(193, 81, 'H. PENCENK', '', '', '0000-00-00', 81, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(194, 82, 'ISNOMO ', '', '', '0000-00-00', 16, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(195, 82, 'DHE MARNO', '', '', '0000-00-00', 10, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(196, 82, 'ADIT ', '', '', '0000-00-00', 23, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(197, 83, 'DIEGO ROFIK ', '', '', '0000-00-00', 7, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(198, 83, 'W4HYU D@YIRI ', '', '', '0000-00-00', 29, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(199, 83, '4FIF AMRULLAH ', '', '', '0000-00-00', 11, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(200, 84, 'RUDIKOE L', '', '', '0000-00-00', 71, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(201, 84, 'HADE XL', '', '', '0000-00-00', 74, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(202, 84, 'BORLY L', '', '', '0000-00-00', 191, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(203, 85, 'DAVIDNL ', '', '', '0000-00-00', 68, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(204, 85, 'CHEF CEDRIC ', '', '', '0000-00-00', 6, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(205, 85, 'SPIRIT ', '', '', '0000-00-00', 94, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(206, 86, 'ISKANDAR', '', '', '0000-00-00', 4, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(207, 86, 'JIBRIL ATAMA', '', '', '0000-00-00', 27, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(208, 86, 'SULTAN', '', '', '0000-00-00', 2, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(209, 87, 'KURNIA JAYA ', '', '', '0000-00-00', 44, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(210, 87, 'AGUS BIMA', '', '', '0000-00-00', 178, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(211, 87, 'ADIE THEMPOEL', '', '', '0000-00-00', 92, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(212, 88, 'BOCAHGADUR ', '', '', '0000-00-00', 12, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(213, 88, 'PANDOLO ', '', '', '0000-00-00', 138, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(214, 88, 'DYA ', '', '', '0000-00-00', 77, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(215, 89, 'MOHD ZAMURINA BESAR ', '', '', '0000-00-00', 131, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(216, 89, 'NUR NASHRULLAH B ', '', '', '0000-00-00', 34, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(217, 89, 'MAHAT SHARIFF ', '', '', '0000-00-00', 164, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(218, 90, 'AZIZ ARIFFIN XXL', '', '', '0000-00-00', 67, '', 'XXL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(219, 90, 'MOHD HAIKAL L', '', '', '0000-00-00', 630, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(220, 90, 'MD SARAFUDIN KHALID L', '', '', '0000-00-00', 117, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(221, 91, 'SYAHRUL ', '', '', '0000-00-00', 101, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(222, 91, 'HANTU LAUT ', '', '', '0000-00-00', 44, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(223, 91, 'CHONX ', '', '', '0000-00-00', 122, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(224, 92, 'BHANUATAM ', '', '', '0000-00-00', 81, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(225, 92, 'HUDA ', '', '', '0000-00-00', 26, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(226, 92, 'SANTIKO ', '', '', '0000-00-00', 57, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(227, 93, 'IAN ', '', '', '0000-00-00', 73, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(228, 93, 'TEDDY LAHEM ', '', '', '0000-00-00', 168, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(229, 93, 'TANZIEL ', '', '', '0000-00-00', 82, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(230, 94, 'LUCAS ', '', '', '0000-00-00', 513, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(231, 94, 'XTRAIL ', '', '', '0000-00-00', 69, '', 'S', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(232, 94, 'XTRAIL ', '', '', '0000-00-00', 75, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(233, 95, 'BAGYO ', '', '', '0000-00-00', 846, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(234, 95, 'XTRAIL ', '', '', '0000-00-00', 87, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(235, 95, 'XTRAIL ', '', '', '0000-00-00', 87, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(236, 96, 'ALPHA3 XL', '', '', '0000-00-00', 94, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(237, 96, 'NGGANK XL', '', '', '0000-00-00', 69, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(238, 96, 'WENK XL', '', '', '0000-00-00', 55, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(239, 97, 'X TRAIL ', '', '', '0000-00-00', 0, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(240, 97, 'X TRAIL ', '', '', '0000-00-00', 44, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(241, 97, 'X TRAIL ', '', '', '0000-00-00', 41, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(242, 98, 'RONI ', '', '', '0000-00-00', 31, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(243, 98, 'AGUS ', '', '', '0000-00-00', 28, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(244, 98, 'PENDIK PUTRA ', '', '', '0000-00-00', 99, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(245, 99, 'YULI WARDANA ', '', '', '0000-00-00', 44, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(246, 99, 'RULLY B ', '', '', '0000-00-00', 182, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(247, 99, 'NUR KHOLIS ', '', '', '0000-00-00', 27, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(248, 100, 'BUDI F ', '', '', '0000-00-00', 75, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(249, 100, 'DJARIANTO ', '', '', '0000-00-00', 0, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(250, 101, 'AYAH STRAC ', '', '', '0000-00-00', 450, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(251, 101, 'PAK T ', '', '', '0000-00-00', 15, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(252, 101, 'NDARU ', '', '', '0000-00-00', 297, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(253, 102, 'TANSIL ', '', '', '0000-00-00', 118, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(254, 102, 'ANDY AH ', '', '', '0000-00-00', 817, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(255, 102, 'KRIWIL ', '', '', '0000-00-00', 279, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(256, 103, 'CICUT ', '', '', '0000-00-00', 0, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(257, 103, 'ANDI ', '', '', '0000-00-00', 8, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(258, 103, 'YAFIE ', '', '', '0000-00-00', 0, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(259, 104, 'A-HER ', '', '', '0000-00-00', 29, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(260, 104, 'SIIFUL ', '', '', '0000-00-00', 212, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(261, 104, 'SRODONG ', '', '', '0000-00-00', 282, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(262, 105, 'KODEI XL', '', '', '0000-00-00', 29, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(263, 105, 'TUYE L', '', '', '0000-00-00', 21, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(264, 105, 'KOKO XL', '', '', '0000-00-00', 0, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(265, 106, 'HADI', '', '', '0000-00-00', 77, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(266, 106, 'BINTANG', '', '', '0000-00-00', 146, '', 'M', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(267, 106, 'NANDO', '', '', '0000-00-00', 192, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(268, 107, 'UTOMO', '', '', '0000-00-00', 689, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(269, 107, 'RIDWAN', '', '', '0000-00-00', 313, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(270, 107, 'BENNY F', '', '', '0000-00-00', 41, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(271, 108, 'AMBARA', '', '', '0000-00-00', 58, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(272, 108, 'YANTO', '', '', '0000-00-00', 46, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(273, 108, 'DHE', '', '', '0000-00-00', 14, '', 'L', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(274, 109, 'IDNAS', '', '', '0000-00-00', 99, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(275, 109, 'JIMMY', '', '', '0000-00-00', 6, '', 'XL', 0, '', '', '', '', '', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(336, 110, 'YUAN', ' ', ' ', '0000-00-00', 0, ' ', ' ', 0, ' ', ' ', 'ENABLE', ' ', ' ', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(337, 110, 'ATOK', ' ', ' ', '0000-00-00', 0, ' ', ' ', 0, ' ', ' ', 'ENABLE', ' ', ' ', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(338, 110, 'WAHONO', ' ', ' ', '0000-00-00', 0, ' ', ' ', 0, ' ', ' ', 'ENABLE', ' ', ' ', 0, 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(339, 0, 'Bagus Andika 1', 'Bumi Asri J-15', 'Malang', '2000-02-27', 3, 'Bagus', 'M', 6, '23', '', 'DISABLE', 'procw57@gmail.com', 'b3c9323ca84c0f3e6ea210cd31c9ea7a', 0, 'DISABLE', '2019-10-29 20:49:56', '2019-10-29 21:02:22', NULL),
-(340, 0, 'Keisna tian', 'Menawan gebog kudus', 'Kudua', '2019-10-11', 72, 'Krisna', 'S', 1, '082226222096', 'B', 'DISABLE', 'winarnoteguh06@gmail.com', 'ac43724f16e9241d990427ab7c8f4228', 0, 'ENABLE', '2019-10-31 11:03:16', NULL, NULL),
-(341, 111, 'Denny', '-', '-', '1990-02-06', 1, '-', 'S', 1, '-', '-', 'DISABLE', 'denny123@gmail.com', '34814f45c5b89ee4ea7e77662747a0e6', 0, 'ENABLE', '2019-10-31 12:19:29', NULL, NULL),
-(342, 111, 'Sulis', '-', '-', '2000-02-08', 17, '-', 'S', 1, '-', '-', 'DISABLE', 'sulis123@gmail.com', '7e62caa05bf31d95fa220f8407a2dcfd', 0, 'ENABLE', '2019-10-31 12:20:12', NULL, NULL),
-(343, 111, 'Yasa', '-', '-', '2000-01-01', 88, '-', 'S', 1, '-', '-', 'DISABLE', 'yasa123@gmail.com', '07044d4261d3b0e58dca07195f35e8a4', 0, 'ENABLE', '2019-10-31 12:20:57', NULL, NULL),
-(344, 0, 'Pandolo', 'Campurdarat tulungagung', 'Tulungagung', '1989-03-01', 38, 'Pandolo', 'XXL', 1, '081337364408', 'A', 'DISABLE', 'panoloasu@gmail.com', 'fe75b1cd3db8e0fdf9065d10e7112371', 0, 'ENABLE', '2019-10-31 20:19:47', NULL, NULL),
-(345, 0, 'Okik bulbul', 'Desa gamping kecamatan campurdarat kabupaten tulungagung', 'Tulungagung', '2019-10-10', 189, 'Bulbul', 'XL', 10, '081333915536', 'O', 'DISABLE', 'okikbuluk46@gmail.com', 'fcaf51bd8f532ce7fa38d46a30254177', 0, 'ENABLE', '2019-10-31 20:27:47', NULL, NULL),
-(346, 0, 'Henri Lomax', 'Ds. Kunjang Kec. Ngancar Kab. Kediri', 'Kediri', '1981-03-26', 7, 'Lomax', 'L', 1, '085736277777', 'A', 'DISABLE', 'henrylomax10@yahoo.com', 'f63f4fbc9f8c85d409f2f59f2b9e12d5', 0, 'ENABLE', '2019-11-01 01:08:47', '2019-11-01 01:20:44', NULL),
-(347, 0, 'Pompit', 'Jogja', 'Jogja', '2017-03-16', 888, 'Pompit suu', 'M', 1, '085668182888', 'AB', 'DISABLE', 'pompotz@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 0, 'ENABLE', '2019-11-01 16:37:25', NULL, NULL),
-(348, 0, 'Aang Muammar Zein', '-', 'Banyuwangi', '1996-12-15', 96, 'Ammar', 'L', 1, '6285526250131', 'A', 'DISABLE', 'amuammarzein@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055', 0, 'ENABLE', '2019-11-01 16:46:06', NULL, NULL),
-(349, 0, 'Akbar Fauzan', 'Jl.Dadiharja no.28 Dusun Rancah Hilir Rt.06 Rw.05 Desa Rancah Kecamatan Rancah Kabupaten Ciamis', 'Ciamis', '2000-11-13', 248, 'Akbar Fauzan', 'L', 6, '087712316870', 'O', 'DISABLE', 'abam.rtax47@gmail.com', '76be456f19ad3b60e2e1c1d18d1504ee', 0, 'ENABLE', '2019-11-01 18:12:23', NULL, NULL),
-(350, 0, 'Akbar Fauzan', 'Jl.Dadiharja no.28 Dusun Rancah Hilir Rt.06 Rw.05 Desa Rancah Kecamatan Rancah Kabupaten Ciamis', 'Ciamis', '2000-11-13', 248, 'Akbar Fauzan', 'L', 6, '087712316870', 'O', 'DISABLE', 'abam.rtax48@gmail.com', '76be456f19ad3b60e2e1c1d18d1504ee', 0, 'ENABLE', '2019-11-01 20:26:55', NULL, NULL),
-(351, 0, 'Winarno', 'Jurang gebog kudus', 'Kudus', '2019-11-02', 26, '26', 'M', 1, '085704111116', 'B', 'DISABLE', 'winarno_teguh@yahoo.com', '763601d3d4320beabf2d3c2b0073766b', 0, 'ENABLE', '2019-11-02 09:14:46', NULL, NULL),
-(352, 0, 'AbobSona ', 'L17 Jln Besar Kg Cacar Baru 23100 Paka Terengganu Malaysia ', 'Malaysia ', '2019-12-23', 630, 'AbobSona ', 'L', 6, '+60139539882 ', '+O', 'DISABLE', 'hanyeabob@yahoo.com', '827ccb0eea8a706c4c34a16891f84e7b', 0, 'ENABLE', '2019-11-02 21:06:35', NULL, NULL),
-(353, 0, 'Tri Setyo Wijanarko', 'Mumbang Jaya\r\nJabung', 'Lampung Timur', '1989-03-31', 118, 'Wijanarko', 'L', 9, '085729090909', 'O', 'DISABLE', 'styo.rnt1@gmail.com', '5305b80046af1d7fb01164c784cdbce0', 0, 'ENABLE', '2019-11-05 18:16:20', NULL, NULL),
-(354, 0, 'Edi kampang', 'Malang', 'Malang', '1978-11-10', 511, 'EDI KAMPANG', 'M', 3, '08113333037', 'O', 'DISABLE', 'edi_siluet@yahoo.com', '8446faabad4859d4ac76ed60f27d439f', 0, 'ENABLE', '2019-11-06 15:34:43', NULL, NULL),
-(355, 0, 'arvin', 'Sawojajar Malang', 'Malang', '1997-08-02', 66, 'Arvin', 'L', 9, '081334574255', 'A', 'DISABLE', 'arvin.fairuz.af@gmail.com', 'adc7fa367574225918e54da20c89d1f5', 0, 'ENABLE', '2019-11-06 15:44:26', NULL, NULL);
-
--- --------------------------------------------------------
-
---
--- Struktur dari tabel `tbl_team`
---
-
-CREATE TABLE `tbl_team` (
-  `id` int(11) NOT NULL,
-  `name` varchar(225) DEFAULT NULL,
-  `email` varchar(225) DEFAULT NULL,
-  `password` text DEFAULT NULL,
-  `alamat` text DEFAULT NULL,
-  `kota` varchar(225) DEFAULT NULL,
-  `nowa` varchar(225) DEFAULT NULL,
-  `verificacion` enum('ENABLE','DISABLE') NOT NULL,
-  `status` enum('ENABLE','DISABLE') DEFAULT NULL,
-  `created_at` datetime DEFAULT NULL,
-  `updated_at` datetime DEFAULT NULL,
-  `created_by` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data untuk tabel `tbl_team`
---
-
-INSERT INTO `tbl_team` (`id`, `name`, `email`, `password`, `alamat`, `kota`, `nowa`, `verificacion`, `status`, `created_at`, `updated_at`, `created_by`) VALUES
-(51, 'KTK KEDIRI', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(52, 'MAWAR COFFE', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(53, 'LBBT LAMPUNG', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(54, 'LBBT BADAK KULON', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(55, 'ASM TECH 1', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(56, 'TRAPS PAKIS AJI', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(57, 'HAPPY RIDE', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(58, 'WARUNG MAMPIR D', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(59, 'WARUNG MAMPIR C', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(60, 'HAW HAW ADVENTURE', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(61, 'MASTERLANG B', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(62, 'MASTERLANG A', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(63, 'K2B TEGAL', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(64, 'SKS YOGYA', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(65, 'ANATIDAE', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(66, 'TEAM BALI', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(67, 'CMC JAKARTA', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(68, 'LINGKAR INDONESIA 3', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(69, 'LINGKAR INDONESIA 2', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(70, 'WARUNG MAMPIR B', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(71, 'WARUNG MAMPIR A', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(72, 'DIPONEGORO IOF JATENG', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(73, 'PLUS 62 END RACING', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(74, 'CRF LAMPUNG', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(75, 'RING OF IJEN BONDOWOSO', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(76, 'PUMA MX BREMI RACING', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(77, 'SEMUT IRENG', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(78, 'CAMPUR ADUK', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(79, 'TRAXAL PEKALONGAN', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(80, 'SOBO ALAS', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(81, 'ASM TECH II', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(82, 'DISTRICT9', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(83, 'D-MIT TRAIL BEKASI', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(84, 'BASS SUBANG', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(85, 'XFUNJOGYA', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(86, 'KTJ UBAS XTRIME', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(87, 'NTB TEAM', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(88, 'TRIAT TULUNG AGUNG', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(89, 'KMX - P  MALAYSIA', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(90, 'KMX - MALAYSIA', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(91, 'GUDANG GARAM', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(92, 'TRACK KUDUS', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(93, 'BATRAS SUMEDANG', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(94, 'PATI XTRAIL 4', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(95, 'PATI XTRAIL  3', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(96, 'PATI XTRAIL  2', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(97, 'PATI XTRAIL  ', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(98, 'LINGKAR INDONESIA', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(99, 'GMA SBS 2 SAMARINDA', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(100, 'GMA SBS SAMARINDA', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(101, 'INTEGRA KAPAL LAUT', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(102, 'BOTAC BOGOR', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(103, 'MISTERI SOLO', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(104, 'JOHOR CREW', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(105, 'NGAPAK BANYUMAS', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(106, 'HAW HAW TRAIL SAMARINDA', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(107, 'JAVADV', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(108, 'DJAVA ADVENTURE SIDOARJO', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(109, 'SPONSOR', '', '', '', '', '', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(110, 'DJAVA ADVENTURE 2 SIDOARJO', ' ', ' ', ' ', ' ', ' ', '', 'ENABLE', '0000-00-00 00:00:00', '0000-00-00 00:00:00', NULL),
-(111, 'SUENCO', 'suenco123@gmail.com', 'ee87d065a48fa9de3fe933e661306f9e', 'SIDOARJO', 'SIDOARJO', '-', 'DISABLE', 'ENABLE', '2019-10-31 12:18:33', NULL, NULL),
-(112, 'LINGKAR INDONESIA', '-', '-', '-', '-', '-', 'DISABLE', 'ENABLE', '2019-11-02 00:00:00', NULL, NULL),
-(113, 'SKS HYENA', 'sks@gmail.com', 'ba213b8c28962d5b00140bdc076796c6', '-', '-', '-', 'DISABLE', 'ENABLE', '2019-11-03 00:27:03', NULL, NULL);
-
--- --------------------------------------------------------
-
---
 -- Struktur dari tabel `tbl_wisata`
 --
 
@@ -2913,18 +2664,6 @@ ALTER TABLE `tbl_paket_detail`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indeks untuk tabel `tbl_raider`
---
-ALTER TABLE `tbl_raider`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indeks untuk tabel `tbl_team`
---
-ALTER TABLE `tbl_team`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indeks untuk tabel `tbl_wisata`
 --
 ALTER TABLE `tbl_wisata`
@@ -2986,7 +2725,7 @@ ALTER TABLE `logs`
 -- AUTO_INCREMENT untuk tabel `log_aktivitas`
 --
 ALTER TABLE `log_aktivitas`
-  MODIFY `log_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=112;
+  MODIFY `log_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=205;
 
 --
 -- AUTO_INCREMENT untuk tabel `log_backupdb`
@@ -3010,7 +2749,7 @@ ALTER TABLE `master_motor`
 -- AUTO_INCREMENT untuk tabel `menu_master`
 --
 ALTER TABLE `menu_master`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=80;
 
 --
 -- AUTO_INCREMENT untuk tabel `report`
@@ -3083,18 +2822,6 @@ ALTER TABLE `tbl_paket`
 --
 ALTER TABLE `tbl_paket_detail`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
-
---
--- AUTO_INCREMENT untuk tabel `tbl_raider`
---
-ALTER TABLE `tbl_raider`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=356;
-
---
--- AUTO_INCREMENT untuk tabel `tbl_team`
---
-ALTER TABLE `tbl_team`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
 
 --
 -- AUTO_INCREMENT untuk tabel `tbl_wisata`

@@ -82,12 +82,6 @@
 
                   </div><div class="form-group">
 
-                      <label for="form-phone">Phone</label>
-
-                      <input type="text" class="form-control" id="form-phone" placeholder="Masukan Phone" name="dt[phone]" value="<?= $tbl_event['phone'] ?>">
-
-                  </div><div class="form-group">
-
                       <label for="form-harga">Harga</label>
 
                       <input type="text" class="form-control" id="form-harga" placeholder="Masukan Harga" name="dt[harga]" value="<?= $tbl_event['harga'] ?>">
@@ -106,9 +100,9 @@
 
                   </div><div class="form-group">
 
-                      <label for="form-alamat">Alamat</label>
+                      <label for="form-tipe_pendaftaran">Tipe Pendaftaran</label>
 
-                      <input type="text" class="form-control" id="form-alamat" placeholder="Masukan Alamat" name="dt[alamat]" value="<?= $tbl_event['alamat'] ?>">
+                      <input type="text" class="form-control" id="form-tipe_pendaftaran" placeholder="Masukan Tipe Pendaftaran" name="dt[tipe_pendaftaran]" value="<?= $tbl_event['tipe_pendaftaran'] ?>">
 
                   </div><div class="form-group">
 
@@ -121,6 +115,12 @@
                       <label for="form-maxraider">Maxraider</label>
 
                       <input type="text" class="form-control" id="form-maxraider" placeholder="Masukan Maxraider" name="dt[maxraider]" value="<?= $tbl_event['maxraider'] ?>">
+
+                  </div><div class="form-group">
+
+                      <label for="form-TglCloseDaftar">TglCloseDaftar</label>
+
+                      <input type="text" class="form-control" id="form-TglCloseDaftar" placeholder="Masukan TglCloseDaftar" name="dt[TglCloseDaftar]" value="<?= $tbl_event['TglCloseDaftar'] ?>">
 
                   </div><div class="form-group">
 
@@ -145,6 +145,12 @@
                       <label for="form-statusEvent">StatusEvent</label>
 
                       <input type="text" class="form-control" id="form-statusEvent" placeholder="Masukan StatusEvent" name="dt[statusEvent]" value="<?= $tbl_event['statusEvent'] ?>">
+
+                  </div><div class="form-group">
+
+                      <label for="form-tipeEvent">TipeEvent</label>
+
+                      <input type="text" class="form-control" id="form-tipeEvent" placeholder="Masukan TipeEvent" name="dt[tipeEvent]" value="<?= $tbl_event['tipeEvent'] ?>">
 
                   </div><div class="form-group">
 

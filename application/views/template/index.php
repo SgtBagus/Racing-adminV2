@@ -6,7 +6,7 @@
   <section class="content">
     <div class="row">
       <?php if ($this->session->userdata('role_id') == '17') { ?>
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-4 col-xs-12">
           <div class="info-box">
             <span class="info-box-icon bg-aqua"><i class="fa fa-star"></i></span>
             <div class="info-box-content">
@@ -15,7 +15,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-4 col-xs-12">
           <div class="info-box">
             <span class="info-box-icon bg-yellow"><i class="fa fa-bar-chart"></i></span>
             <div class="info-box-content">
@@ -25,21 +25,12 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-4 col-xs-12">
           <div class="info-box">
             <span class="info-box-icon bg-green"><i class="fa fa-cubes"></i></span>
             <div class="info-box-content">
               <span class="info-box-text">Total Merchandise</span>
               <span class="info-box-number"><?= $totalmerchandise[0]['totalmerchandise'] ?></span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-orange"><i class="fa fa-users"></i></span>
-            <div class="info-box-content">
-              <span class="info-box-text">Team Bergabung</span>
-              <span class="info-box-number"><?= $totalteam[0]['totalteam'] ?> Team</span>
             </div>
           </div>
         </div>
@@ -74,7 +65,7 @@
       <?php } ?>
     </div>
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div class="box">
           <div class="box-header with-border">
             <h3 class="box-title">5 Data Event Terbaru</h3>
@@ -147,45 +138,6 @@
                 <button type="button" class="btn btn-sm btn-sm btn-info"><i class="fa fa-eye"></i> Lihat Semua Team</button>
               </a>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="box">
-          <div class="box-header with-border">
-            <h3 class="box-title">Data Team Terbaru</h3>
-            <div class="box-tools pull-right">
-              <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-              </button>
-              <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-            </div>
-          </div>
-          <div class="box-body">
-            <ul class="users-list clearfix">
-              <?php foreach ($team as $row_team) {
-                $rowraider = $this->mymodel->selectWithQuery("SELECT count(id) as rowraider from tbl_raider WHERE team_id = '" . $row_team['id'] . "'");
-                ?>
-                <li>
-                  <a href="<?= base_url('team/view/') . $row_team['id'] ?>" style="color:black">
-                    <?php $image_src = $this->mymodel->selectDataone('file', array('table' => 'tbl_team', 'table_id' => $row_team['id'])); ?>
-                    <?php if ($image_src != NULL) { ?>
-                    <img style="height: 50px; width: 50px; object-fit: cover; display: inline;" src="<?= $image_src['url'] ?>" alt="User Image">
-                    <?php } else { ?>
-                    <img style="height: 50px; width: 50px; object-fit: cover; display: inline;" src="https://dev.karyastudio.com/nso_mobile/webfiles/team/team_default.png" alt="User Image">
-                    <?php } ?>
-                    <br>
-                    <?= strlen($row_team["name"]) > 10 ? substr($row_team["name"], 0, 10) . "..." : $row_team["name"] ?>
-                    <br>
-                    <small>Total Rider : <?= $rowraider[0]['rowraider'] ?></small>
-                  </a>
-                </li>
-              <?php } ?>
-            </ul>
-          </div>
-          <div class="box-footer" align="center">
-            <a href="<?= base_url('team') ?>">
-              <button type="button" class="btn btn-sm btn-sm btn-info"><i class="fa fa-eye"></i> Lihat Semua Team</button>
-            </a>
           </div>
         </div>
       </div>

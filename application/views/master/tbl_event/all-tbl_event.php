@@ -234,7 +234,7 @@
 
                    '     <tr class="bg-success">'+
 
-                   '       <th style="width:20px">No</th>'+'<th>Title</th>'+'<th>TgleventStart</th>'+'<th>TgleventEnd</th>'+'<th>Phone</th>'+'<th>Harga</th>'+'<th>Deskripsi</th>'+'<th>Kota</th>'+'<th>Alamat</th>'+'<th>Minraider</th>'+'<th>Maxraider</th>'+'<th>Live Url</th>'+'<th>Latitude</th>'+'<th>Longitude</th>'+'<th>StatusEvent</th>'+'<th>Public</th>'+'       <th style="width:150px">Status</th>'+
+                   '       <th style="width:20px">No</th>'+'<th>Title</th>'+'<th>TgleventStart</th>'+'<th>TgleventEnd</th>'+'<th>Harga</th>'+'<th>Deskripsi</th>'+'<th>Kota</th>'+'<th>Tipe Pendaftaran</th>'+'<th>Minraider</th>'+'<th>Maxraider</th>'+'<th>TglCloseDaftar</th>'+'<th>Live Url</th>'+'<th>Latitude</th>'+'<th>Longitude</th>'+'<th>StatusEvent</th>'+'<th>TipeEvent</th>'+'<th>Public</th>'+'       <th style="width:150px">Status</th>'+
 
                    '       <th style="width:150px"></th>'+
 
@@ -290,7 +290,7 @@
 
                 columns: [
 
-                    {"data": "id","orderable": false},{"data": "title"},{"data": "tgleventStart"},{"data": "tgleventEnd"},{"data": "phone"},{"data": "harga"},{"data": "deskripsi"},{"data": "kota"},{"data": "alamat"},{"data": "minraider"},{"data": "maxraider"},{"data": "live_url"},{"data": "latitude"},{"data": "longitude"},{"data": "statusEvent"},{"data": "public"},
+                    {"data": "id","orderable": false},{"data": "title"},{"data": "tgleventStart"},{"data": "tgleventEnd"},{"data": "harga"},{"data": "deskripsi"},{"data": "kota"},{"data": "tipe_pendaftaran"},{"data": "minraider"},{"data": "maxraider"},{"data": "TglCloseDaftar"},{"data": "live_url"},{"data": "latitude"},{"data": "longitude"},{"data": "statusEvent"},{"data": "tipeEvent"},{"data": "public"},
 
                    {"data": "status"},
 
@@ -306,7 +306,7 @@
 
                 columnDefs : [
 
-                    { targets : [16],
+                    { targets : [17],
 
                         render : function (data, type, row, meta) {
 
